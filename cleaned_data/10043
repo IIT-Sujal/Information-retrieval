@@ -1,0 +1,18 @@
+From ardie@ux1csouiucedu Ardie Mack
+Subject Re Windows zipunzip
+
+IFrom ccastco@prismgatechEDU Costas Malamas
+Subject Re Windows zipunzip
+Date 28 Apr 93 223155 GMT
+In article 1rl9b6$h3c@soldeakinOZAU russ@deakinOZAU Russ Sharp writes
+We are using pkzip V204 and I am interested to hear from
+people who have used one of the many Windows programs that
+call these
+Is there a full windows version that does not call the DOS 
+PKZIPPKUNZIP commands
+
+Russ Sharp    russ@deakineduau    ph 05227 1141    fax 05227 2015    
+
+There is WunArchive the replacement of WunZip  It only extracts but it 
+ssupports pkzip 204  It does NOT require pkzunzip in order to work and 
+ccosts only $10 to register

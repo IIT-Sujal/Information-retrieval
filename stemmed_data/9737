@@ -1,0 +1,140 @@
+cgordon@vpnetchiilu gordon hlavenka 
+subject re save hard disk alloc error crosslink 
+
+
+
+brad banko write 
+runn ms quick c compil do window window 31 
+even got "program violat system integr close 
+applic exit window restart computer" error 
+
+gawd love window 
+
+1 easi wai restor everyth work order 
+might better approach 
+
+probabl want delet damag execut reload 
+fresh data file examin repair 
+
+2 might caus smartdrv cach make 
+vulner suspici hard drive cach especi 
+cach data write 
+
+stupid smartdriv cach thing window also run 
+swap file mai contain data also pretti riski 
+stuff pc environ 
+
+straightforward approach run chkdsk f option 
+fix disk look like probabl reinstal window 
+thing 
+
+reason accur predict 
+
+
+brief descript do store file 
+
+three piec file directori entri fat chain 
+data area can think sheet line 
+notebook paper sheet graph paper stack 3x5 card 
+
+directori entri notebook paper hold file name actual size 
+first cluster number also hold inform 
+import right now 
+
+file alloc tabl fat chain graph paper tell find 
+actual data squar graph paper hold number 
+number zero cluster associat box avail 
+hold "magic" number either last piec file bad 
+unus spot disk number tell cluster 
+contain next section file 
+
+data area 3x5 card actual inform store 
+data area organiz cluster fix size; storag 
+dole "chunks" on cluster case on cluster 
+2048 byte cluster fill anoth allocat 
+
+read file first look directori entri get 
+start cluster number now read data cluster 
+next look fat entri cluster just read will 
+tell cluster number next chunk file 
+natur number usual sequenti can jump 
+around even go backward continu read on cluster 
+time walk chain fat hit marker 
+sai last cluster file 
+
+chkdsk do util check saniti coher 
+directori fat can bludgeon flaw 
+submiss intellig 
+doublecheck anyth "fixes" 
+
+now bit postmortem 
+
+cgfxvpic46cvpicex 
+cgfxvpic46vpictxt 
+cgfxvpic46video7cfg 
+cgfxvpic46orcpro2cfg 
+cgfxvpic46vgacfg 
+cgamegoosebird2x 
+cwinmiscadv21winadvex 
+alloc error size adjust 
+
+file size accord fat match 
+size report directori entri chkdsk f will alter 
+directori entri match fat size word 
+directori entri cvpicex mai sai file 64877 byte long 
+chkdsk found fat chain 43 cluster attach number 
+obvious made 
+
+316 lost alloc unit found 224 chain 
+647168 byte disk space freed 
+
+disk space found allocat fat attach 
+directori entri chkdsk f give option convert 
+"lost chains" file can examin file file0000chk 
+file0223chk renam discard tell 
+chkdsk convert file cluster will simpli 
+mark "available" fat 
+
+
+cgfxvpic46cvpicex 
+cross link alloc unit 16133 
+
+
+
+c386spartpar 
+cross link alloc unit 16133 
+
+file referenc data cluster obvious 
+on least must wrong interest note 
+c386spartpar window swap file 
+
+fix copi crosslink file new name 
+will "fix" crosslink give file uniqu data space 
+now delet crosslink file examin copi try 
+assembl properli good luck hint "miss pieces" 
+like found "lost chains" top 
+
+42366976 byte total disk space 
+3958784 byte 4 hidden file 
+153600 byte 67 directori 
+36042752 byte 1496 user file 
+1564672 byte avail disk 
+
+disk pretti close full mai actual caus 
+problem; perhap window need expand swapfil 
+amount exceed avail disk space 
+
+case short summari someth trash fat 
+util can mirror fat help repair damag 
+someth like run 
+problem occur sorri 
+
+
+
+
+gordon s hlavenka cgordon@vpnetchiilu 
+vote straight ticket procrastin parti dec 3rd 
+
+
+gordon s hlavenka cgordon@vpnetchiilu 
+vote straight ticket procrastin parti dec 3rd 

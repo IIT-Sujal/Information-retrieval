@@ -1,0 +1,18 @@
+From rnichols@cbnewsgcbattcom robertknichols
+Subject Re Simple Windows question
+
+In article 1993Apr2321411015315@sarahalbanyedu jr0930@evealbanyedu DIAMOND writes
+When running DOS 50 under Windows 30 I lose the ability to do a
+printscreen
+I have no problem with this when I'm running DOS not under Windows
+
+
+Open up the PIF file with the PIF Editor click on the "Advanced" button
+and then reserve the PrtSc key for the application  Any keys that you
+select in this section will be passed along to the application rather than
+being processed by Windows
+
+
+Bob Nichols
+ATT Bell Laboratories
+rnichols@ihlpmihattcom

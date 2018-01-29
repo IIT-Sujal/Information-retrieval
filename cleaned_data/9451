@@ -1,0 +1,20 @@
+From carols@ohsuedu Carol Suelzle
+Subject re Help with WinQVT
+
+
+
+This is the qvthostrc file
+13711252
+13711219950
+
+
+
+
+The host file requires the names that you'll be using in addition to the ip address
+
+sucb as
+
+100001 nameservername
+100221 nameroutername
+
+Carols@ohsuedu

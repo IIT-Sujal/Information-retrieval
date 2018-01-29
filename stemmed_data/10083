@@ -1,0 +1,54 @@
+wcl@riscspsmotcom wayne long 
+subject observ floppi copi work pgm mgr do shell 
+
+anyone observ copi larg sai 800k+ file larg pkzip 
+file instanc floppi drive 35" ms window 31 via either 
+program manag do shell file copi do shell 
+error wherea file copi within program manag 
+
+corrupt detect execut "pkunzip t bfilezip" 
+copi file copi via do shell alwai show corrupt 
+
+
+now kicker 
+
+
+mani window open this; do window app 
+supposedli windows' app share time slice wherea 
+do app get equal time slice unless overriden 
+
+
+exampl 5 windows' app open 2 multitask do session runn 
+on executionexeclus do shell iconiz inact 
+scenario cpu time divid two major slice on window 
+app on slice runn do app 
+
+copi window pgm mgr assum window do task 
+essenti inact thu pgm mgr get sai 80 window slice 
+95 executionbackground do shell' slice thu get 8952 = 
+72 72 total avail cpu time 
+
+copi do shell activ executeexclus mode do shell 
+do background task allow full screen window task 
+manag cpu time avail shell 80 window slice 
+assumm inact window applic 100 do slice 
+108 = 8 80 total avail cpu time 
+
+get copi error do greater amount cpu 
+time program manag work preemptiv mode floppi 
+copi must 
+
+
+
+miscellan data runn window top do 50 qemm 5x rapidbiossi 
+20 mbyte smartdriv delai write two ramdriv 
+logitech mous driver 62 full 16mbyte motherboard ram 
+64kbyte motherboard cach 386 dx 33 mhz 
+
+runn doseditcom tsr do shell 
+
+
+
+wayne long oe215 internet wcl@riscspsmotcom 
+6501 william cannon drive west uucp cstexaseduoakhillriscwcl 
+austin texa 787358598 phone 512 8914649 fax 8913818 

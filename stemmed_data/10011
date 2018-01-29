@@ -1,0 +1,471 @@
+ashok@biochemistrycwruedu ashok aiyar 
+subject sett slip client do window long 
+
+
+post monthli "howtosetup slip client pc" post 
+month lot work immin graduat come wai 
+post on march earlier month apolog 
+
+file includ inform write script univers minnesota 
+phone also batch file hack let us packet driver 
+phone 
+
+addit modif correct can reach 
+ashok@biochemistrycwruedu 
+
+best wish 
+ashok 
+
+begin sliptxt 
+base experi sett slip do window 
+comment sett slip environ thank 
+trumpet beta tester cwru slip beta tester comment 
+
+
+configur modem 
+
+turn dtr atd0w 
+disabl dtr commun program us 
+dial slip server qmodem drop dtr exit program 
+therefor hang line us program like kermit 
+conex establish slip connect need done 
+program necessarili hangup line exit 
+
+note us univ minn phone dial establish 
+slip connect need turn dtr 
+
+b dial establish slip connect first can done 
+automat us program like phone univers 
+minnesota will dial establish slip connect load 
+slip packet driver phone script languag simpl 
+phone script can easili written configur phone work 
+slip server addit packet driver 
+phone work umslip current easi write 
+batch file hack let phone work packet driver 
+section phone document script 
+batch file exampl 
+
+
+configur slip driver 
+
+five slip packet driver commonli avail 
+cslipperex peter tattam' compress slip driver 
+slipperex peter tattam' slip driver 
+slip8250com crynwr driver like phil burn' modifi driver 
+etherslcom crynwr driver ethernet simul slip 
+umslipcom univ minnesota driver base slip8250 
+
+four vastli prefer cslipperex slip8250com 
+etherslcom follow reason 
+
+much faster even though modem just 16450 uart 
+b us etherslipslip8250umslip sever other 
+notic pc clock get mess perform 
+long ftp transfer 
+c support pktmux us ethernet simul mode 
+d us ethernet simul mode cslipper seem work 
+everi tcpip applic test 
+
+instruct cslipperex us phone 
+load slipper autoexecbat file accord instruct 
+instanc v32bi modem com1 
+slipper com1 vec=62 baud=57600 
+b us do tcpip applic win 31 do box us 
+doubleend packet driver shim winpktcom creat virtual 
+packet driver 0x60 do applic nativ mode do 
+applic window 31 do box window applic can 
+us virtual driver 0x60 
+winpktcom 0x60 0x62 
+c us qvtnet load pktintcom next qvtnet configur 
+qvtnetini us interrupt 0x60 
+pktintcom 
+
+instruct slip8250com 
+try gett version 10 slip driver philip burn northwestern 
+univers modifi slip8250com driver better hardwar 
+handshak driver distribut along nupop 
+b load driver establish slip connect modem 
+v32bi modem com1 load driver 
+slip8250 w 0x62 h 4 slip 0x03f8 57600 
+c discuss us do tcpip applic window 3x 
+do box probabl want us winpktcom 
+winpktcom 0x60 0x62 
+d us winqvtnet load pktintcom 
+pktintcom 
+
+instruct etherslcom 
+choos us etherslcom instead slip8250com 
+instruct exactli on crucial differ 
+will delet line "device=vcd" [386enh] section 
+systemini will interfer runn regular window comm 
+applic crosstalk will get lot dropp 
+charact etc applic therefor 
+recommend etherslip load 
+ethersl w 0x62 h 4 0x03f8 57600 
+
+configur window 31 
+
+make follow modif systemini file [386enh] 
+section 
+list com port address interrupt 
+com1base=03f8 
+com1irq=4 
+com2base=02f8 
+com2irq=3 
+com3base=03e8 
+com3irq=5 
+can also done within window control panel 
+doubleclick "ports" icon 
+ii give port modem attach gener com buffer 
+com1buffer=10000 
+iii chang com port autoassign valu com port wish 
+us modem zero amount time 
+window wait second hand control com port 
+anoth applic us winqvtnet want switch 
+on session anoth valu default valu 
+2 second will get gpf window will crash 
+com1autoassign=0 
+can also done within window control panel 
+doubleclick 386 enhanc "devic contention" set 
+devic content com port modem 
+"never warn" 
+
+addit note 
+
+assign differ ip address 
+slip session 
+
+fortun campu slip server assign user 
+perman ip address worri edit qvtnetini 
+time establish slip connect 
+
+assign new ip address everi occas dial 
+pleas try us bootp awar softwar let bootp 
+configur howev qvtnet bootp awar rarp 
+will work slip connect get qvtnet work 
+situat must follow 
+
+edit qvtnetini file let [net] section look like 
+
+[net] 
+name= 
+ip= 
+netmask=2552552550 whatev appropri 
+arptime=20 
+packetvector=60 whatev appropri 
+
+save chang writeprotect file 
+"attrib +r qvtnetini" 
+
+start slip connect rememb name ip address 
+assign time start qvtnet 31x 
+gener configur dialog box will open enter name 
+ip address assign session click [ok] 
+runn chang make will 
+save qvtnetini writeprotect 
+
+eleg solut problem dynamic slip ip address 
+assign provid victor menayang victor@ccwfccutexasedu 
+victor us program bootpq semiautom qvtnet prepar 
+bootpq us inquir assign ip save 
+file call "myip" anoth file "noip" essenti complet 
+qvtnetini file lack ip address final step "myip" 
+"noip" copi singl qvtnetini file exampl 
+victor' batch file provid 
+===================================================== 
+slipper com2 
+pktintcom 
+bootpq "ip="s"" myip 
+bootpq "my ip s" 
+copi q net + myip + noip ecomqvtnetqvtnetini 
+del q myip 
+@echo 
+echo 
+echo readi run winqvtnet 
+===================================================== 
+question detail bootpq pleas contact victor 
+menayang victor@ccwfccutexasedu 
+
+qpc softwar attempt add bootp capabl winqvtnet 
+
+us pktmux slip 
+
+pktmux will work slip8250com packet driver crash 
+immedi us etherslcom 
+
+pktmux will work cslipperex cslipper us ethernet 
+simul mode exampl configur shown 
+
+latest releas pktmux 12c; import 
+us version want us virtual packet driver 
+applic like trumpet window releas shortli 
+
+[from autoexecbat] 
+
+lh cslipper com1 vec=65 baud=57600 ether packet driver 
+lh pktmux 5 65 5 pktmux load 5 virtual packet driver 
+lh pktdrv 7f 65 first virtual packet driver us qvtnet 
+lh pktintcom qvtnet pktintcom 
+pktdrv 63 65 pktdrv us nativ do wintrumpet 
+
+addit virtual packet driver can load directli within 
+window 31 do box exampl pif file load popmail 
+direct file "popmailbat" popmailbat read 
+like 
+
+pktdrv 60 65 load virtual packet driver 0x60 
+cd popmail 
+popmail 
+cd 
+pktdrv 60 u unload packet driver 0x60 
+exit caus do window close 
+
+similar batch file load do tcpip applic 
+like pc gopher experi pktmux work fine 
+even virtual packet driver two independ virtual do 
+session load softwar interrupt exampl 
+within two differ do box on popmail 
+gopher virtual packet driver pktdrv load 0x60 
+instanc 
+
+much pktmux degrad perform cslipper 
+
+v32bisv42bi modem 38633 runn window 31 
+reason fast video card ati graphic ultra 
+condit three virtual packet driver load 
+us follow 
+driver 0x7f qvtnet ftp client session 
+b driver 0x60 on do window cutcp tn3270 session 
+c driver 0x60 anoth do window trumpet do 
+
+get ftp transfer rate 08 10 kbsec transferr 
+compress file rate compar get 
+slip8250 load packet driver singl tcpip session 
+activ cslipper us packet driver singl session 
+activ get transfer rate 13 14 kbsec 
+file 
+
+40 degrad perform slipper 
+benefit abl us pktmux outweigh 
+perform hit 
+
+cslipper ethernet simul mode 
+
+ethernet simul mode cslipper ver 13 work 
+applic test on two applic 
+requir ethernet simul balk cslipper 12 even 
+rare problem resolv ver 13 
+
+slipper us ethernet simul mode us pktmux 
+get error messag qvtnet consol window read 
+"ipincorrect packet type" "ipbad version number" 
+seem prevent qvtnet function although comment 
+loss perform 
+
+can do tcpip applic work 
+cslipper ethernet simul mode 
+
+rare event find packag work 
+cslipper ethernet simul mode first contact author 
+peter tattam peter@psychnetpsycholutaseduau let 
+know chanc can fix 
+
+meanwhil can try follow know 
+kosher work problem cslipper ver 12 
+
+cslipper load 0x62 describ pktmux section 
+
+load etherslcom 0x60 run applic termin 
+etherslcom 
+
+also work within window 31 virtual do box howev 
+packet driver like ethersl can us on virtual do box 
+time 
+
+exampl batch file run grate med 
+medic refer retriev program develop nation librari 
+medicin 
+
+ethersl w 0x60 h 4 0x03f8 57600 load etherslip 
+cd gm6 
+search 
+cd 
+termin 0x60 termin etherslip 
+exit close do box return window 
+
+us method cautiou on thing 
+activ pktmux do session open time close 
+ethersl window can run pktmux do session 
+problem btw exampl grate med work 
+problem cslipper ver 13 
+
+phone script file 
+
+document accompani phone provid good instruct 
+write script file get phone dial slip server 
+univers minnesota server exampl script 
+us dial cisco server univers attend 
+
+background start slip connect dial termin server 
+login usernam password start slip 
+session follow command "slip usernameslipdialincwruedu" 
+follow password 
+
+relev portion phonecmd script file 
+
+cwruts2 slip login script ashok aiyar 32693 
+last revis 32893 
+procedur hostcwrulogin 
+timeout 60 'cwruts2 termin server responding' 
+messag "cwruts2 slip login script version 11" 
+messag 'wait slip server respond' 
+quiet 
+expect 'verification' 
+messag 'request user verif receiv cwruts2' 
+messag 'send user name password' 
+quiet 
+expect 'username' 
+send 'u' 
+expect 'password' 
+privat 
+send 'p' 
+reject 'access denied' 'your user name password accepted' 
+timeout 30 'slip server respond valid request' 
+expect 'cwruts2' 
+send 'slip' 
+timeout 10 'slip server respond slip command' 
+expect 'ip hostnam address' 
+send 'uslipdialincwruedu' 
+timeout 10 'slip server respond hostname' 
+reject 'bad ip address' 'incorrect hostname' 
+expect 'password' 
+send 'p' 
+reject 'access denied' 'password accepted' 
+timeout 10 
+expect 'header compress will match system' 
+messag 'login cwru slip server successful' 
+wait 10 
+endprocedur hostcwrulogin 
+
+
+procedur hostcwrulogout 
+noth special need done logout 
+endprocedur hostcwrulogout 
+
+end script file 
+
+
+us packet driver umslip phone 
+
+quick answer "clean" wai batch file 
+hack wrote us phone packet driver 
+exampl packet driver peter tattam' cslipper us 
+batch file like must know paramet 
+plan us packet driver ie interrupt vector baud rate 
+port address irq batch file requir umslipcom 
+cslipperex termincom directori 
+path 
+
+batch file let dial slip connect 
+us phone load appropri packet driver hangup 
+connect unload driver done 
+
+cwruslipbat 
+@echo 
+rem batch file ugli hack u minn "slipbat" 
+rem await version cslipper can directli interact 
+rem phone 
+rem cwruslipbat file us phoneex start slip 
+rem connect cwruts2 
+rem last modifi 32893 ashok aiyar 
+
+@echo 
+cl 
+goto start 
+
+start 
+1 == goto help 
+1 == help goto help 
+1 == setup goto setup 
+1 == dial goto forc 
+1 == hangup goto forceh 
+1 == quit goto forceh 
+1 == help goto help 
+1 == setup goto setup 
+1 == dial goto forc 
+1 == quit goto forceh 
+goto bogu 
+goto unload 
+
+forceh 
+termin 0x60 
+umslip nul 
+phone forc hangup 
+goto unload 
+
+slipper 
+termin 0x60 
+rem follow line must chang reflect com port 
+rem irq baud rate softwar interrupt 
+lh cpacketcslipp com1 vec=60 baud=57600 ether 
+goto end 
+
+forc 
+termin 0x60 
+umslip nul 
+phone forc dial 
+goto slipper 
+
+setup 
+termin 0x60 
+umslip nul 
+phone setup 
+goto help 
+
+unload 
+termin 0x60 
+goto end 
+
+bogu 
+echo 1 valid command 
+echo try "cwruslip help" list valid command 
+echo 
+
+help 
+echo 
+echo case western reserv univers slip setup 
+echo us univ minnesota phone 
+echo 
+echo cwruslip setup modem sett phone number usernam etc 
+echo 
+echo cwruslip dial dial establish slip connect 
+echo cwruslip quit hangup phone unload driver 
+echo cwruslip help screen 
+echo 
+
+end 
+end cwruslipbat 
+
+get 
+
+peter tattam' program archiv ftputaseduau cslipper 
+trumpet set program 
+
+winqvtnet gener archiv window ftp site 
+includ ftpcicaindianaedu 
+
+ncsa telnet archiv ftpncsauiucedu 
+
+nupop archiv ftpacnsnwuedu 
+
+popmailpc slipdisk phone pc gopher archiv 
+boomboxmicroumnedu 
+
+end sliptxt 
+
+
+
+
+ashok aiyar mail ashok@biochemistrycwruedu 
+depart biochemistri tel 216 3683300 
+cwru school medicin cleveland ohio fax 216 3684544 

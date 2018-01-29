@@ -1,0 +1,24 @@
+From dbasson@mattekcsircoza Dominique Basson  
+Subject Re Bootup sometimes fails
+
+In article 1993Apr2805370012929@lugblatrobeeduau cs416530@luxlatrobeeduau Matthew I Gillard writes
+Subject Bootup sometimes fails
+From cs416530@luxlatrobeeduau Matthew I Gillard
+Date Wed 28 Apr 1993 053700 GMT
+Sometimes when I boot up windows 31 after the windows logo comes up it han
+gs I am using Dos 6 and doublespace and a 5 meg temp swap file on an
+uncompressed drive
+But when I press the reset button on the computer  windows boots up
+fine Why is this is it dos 6
+ 
+
+Matthew Gillard                     Blessed are they who run around
+Computer Systems Engineering        in circles for they shall be 
+La Trobe University                 known as wheels
+
+Dos 5 never used the area $E000  $EFFF as well as some others If you have 
+any cards that use this are such as a LAN card you might get this 
+problem
+
+Use the X=$E000$EFFF in your EMM386EXE line in configsys If you run 
+MemMaker then instruct it retain inclusions and exclusions

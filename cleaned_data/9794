@@ -1,0 +1,25 @@
+From sguerke@raveludeledu Stephen Guerke
+Subject Re How can I use the mouse in NONWindows applications under MSWINDOWS 
+
+In article 1993Apr2215395912328@ucsuColoradoEDU gonzaled@ucsuColoradoEDU LGVMC writes
+
+
+One addition to this I don't know if it applies to everybody  For my
+Microsoft 400dpi mouse to work with windowed DOS apps I had to use the
+driver that came with Windows Version 820  81 didn't allow me to do
+it for some reason
+
+
+For Logitech rodents use  the lmouse driver that comes with windows
+also you need to be using a video driver that supports use of the mouse
+both the VGA and SUPERVGA that come with Windows 31 will support it 
+both of these are 16 color drivers if you're lucky the manufacturer of
+your video card might have a driver that is compatable and will support a
+mouse  
+
+Steve
+
+ 
+   Stephen Guerke Coord Computer Resources  sguerke@brahmsudeledu
+   University of Delaware Parallel Program    stephenguerke@mvsudeledu
+   Georgetown DE 19947                       ILV20078@UDELVMUDELEDU

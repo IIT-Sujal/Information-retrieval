@@ -1,0 +1,14 @@
+From slc@a2cimcdccom Steve Chesney x4662
+Subject Internationalization of Applications and Muultibyte Characters
+
+We are researching what support there is on various platforms for applications
+to use multibyte characters eg Japanese Kanji  We know that Unix
+and X Windows can contain support for the i18N standard depending on level
+and platform  What support for i18N or wide characters exists on the Mac 
+Windows 31 and Windows NT
+
+ 
+Steve Chesney                                    slc@catherinecimcdccom     
+Metaphase Technology Inc                        6124824662 voice
+4233 North Lexington Avenue                      6124824001 fax
+Arden Hills MN  55126

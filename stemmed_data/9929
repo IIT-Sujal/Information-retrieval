@@ -1,0 +1,62 @@
+dbd@icfhrbcom dougla b dodson 
+subject window 31 do 50 smartdrv 
+
+hello 
+
+thought problem might someth window 31 smartdrv 
+vesa video cardani idea 
+
+recent purchas 486dx33 machin problem 
+machin will suddenli freez reboot mai happen window 31 do 
+50 sometim print document sometim us 
+mous sometim just sitt twice happen 
+machin reboot sound seven beep look document 
+seven beep code meant problem interrupt machin 
+follow configur file 
+
+486dx33 
+ami bio 
+525 35 floppi 
+170 meg id hard drive 
+256k cach 
+microsoft compat mous com1 
+citizen gsx145 lpt1 
+ni supervga monitor vesa window acceler card w 1meg 
+two vesa slot 
+window 31 
+do 50 
+
+configsi 
+========== 
+device=cwindowshimemsi 
+dos=high 
+devicehigh=cdossetverex 
+files=20 
+buffers=20 
+stacks=9128 
+
+autoexecbat 
+============ 
+@echo 
+lh cwindowssmartdrvex 1024 
+prompt $p$g 
+path cdos;cwindows;cmous 
+lh cmousemous 
+set temp=cdo 
+lh cdosdoskei 
+
+
+machin freez us mous keyboard us ctrlaltdel 
+reboot on can give help greatli appreci 
+anyone can help configur machin best effici memori wise 
+appreci also 
+
+dougla b dodson internet dbd@icfhrbcom 
+hrb system inc 
+state colleg pa usa 
+16804 
+
+disclaim 
+=========== 
+idea opinion express necessarili reflect idea 
+opinion hrb 

@@ -1,0 +1,26 @@
+From cui@maccsmcmasterca Jun Cui
+Subject How to respond to WMLBUTTONDBLCLK
+
+I'm using BC++'s ObjectWindows 31 trying to resond to the left button
+double click message WMLBUTTONDBLCLK in a combo box My codes look like
+
+class MyComboBox  public TComboBox
+{
+public
+	MyComboBoxPTWindowsObject AParent int ResourceId WORD ATextLen 
+		TComboBoxAParent ResourceId ATextLen {};
+	virtual void WMLButtonDblClkRTMessage Msg = [WMFIRST + WMLBUTTONDBLCLK];
+};
+
+void MyComboBoxWMLButtonDblClkRTMessage Msg
+{
+		 responding to the message selecting the item in the list box
+}
+
+Anything wrong with my program Any help would be appreciated
+
+ jun
+To talk to the Lord with PS2 through MSWindows
+
+
+

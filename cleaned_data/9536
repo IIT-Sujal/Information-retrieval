@@ -1,0 +1,21 @@
+From downs@heliosnevadaedu Lamont Downs
+Subject Re Windows 31 keeps crashing Please HELP
+
+In article 1993Apr1615563715398@oracleusoraclecom ebosco@usoraclecom Eric Bosco writes
+From ebosco@usoraclecom Eric Bosco
+Subject Windows 31 keeps crashing Please HELP
+Date Fri 16 Apr 1993 155637 GMT
+
+As the subjects says Windows 31 keeps crashing givinh me GPF on me of  
+late  It was never a very stable package but now it seems to crash every  
+day  The worst part about it is that it does not crash consistently ie I  
+
+Have you tried setting FILES in your configsys file to a fairly high
+number I've got mine set to 100; I've seen numbers from 40 to 100 
+recommended Also check your STACKS statement STACKS=9256 is a good
+starting point Try increasing it if it's already set there such as
+to STACKS=12256 etc Both STACKS and FILES have been identified as
+one cause of frequent Win31 crashes
+
+Lamont Downs
+downs@nevadaedu

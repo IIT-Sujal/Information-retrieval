@@ -1,0 +1,23 @@
+From kris@circupennedu Kris Gupta
+Subject Re NDW Norton Desktop for Windows
+
+In article 2773@lelandStanfordEDU shiva@lelandStanfordEDU Matt Jacobson writes
+
+
+ I have taken it out of winini but it still pops up running with windows
+ I did a big search and found reference to it in ndwini systemini and
+ progmanini  Removing it here causes a failure when starting up windows
+ progrmanini has a "group 7 = ndwexe" which can't be deleted
+ 
+ Is there anyone familiar with NDW who can tell me how to turn it off
+ 
+
+One of the items in the group folder typically called Norton Desktop Applications
+is labelled "Norton Desktop Uninstall" Need I say more
+
+
+Kris B Gupta   Cardiothoracic Imaging Research Center
+Dept Radiology  Hospital of U of Pennsylvania
+Internet kris@gynkocircupennedu
+
+

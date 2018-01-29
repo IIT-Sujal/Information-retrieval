@@ -1,0 +1,153 @@
+From btbg1194@uxacsouiucedu Bradley T Banko
+Subject Save my hard disk  allocation error crosslinked
+
+Hi
+
+While running the MS Quick C compiler in a DOS window under Windows 31 
+this evening I got a "program has violated system integrity close all 
+applications exit windows and restart your computer" error
+
+I started to do this when I immediately got a "Serious disk error" message
+from Windows  "hit return to retry"  I did that about 5 times and then
+rebooted to find that quite a few files have been corrupted somehow
+I am including the chkdsk output below
+
+Questions
+
+1  Is there an easy way to restore everything to working order
+What might be some better approaches
+
+2  What might have caused this  Does the SMARTDRV cache make me more
+vulnerable  I'm suspicious of hard drive caches especially when they
+cache data writing
+
+The straightforward approach would be to run chkdsk with the f option to 
+fix the disk and then it looks like I would probably have to reinstall Windows
+and a few other things
+
+Thanks for your comments and suggestions
+
+Brad Banko
+
+ps  this is a 386sx machine with a 40Mb hard drive and 2 Mb of RAM
+
+
+chkdsk output
+======================================================================
+Volume Serial Number is 115909D3
+Errors found F parameter not specified
+Corrections will not be written to disk
+
+CGFXVPIC46CVPICEXE
+   Allocation error size adjusted
+CGFXVPIC46VPICTXT
+   Allocation error size adjusted
+CGFXVPIC46VIDEO7CFG
+   Allocation error size adjusted
+CGFXVPIC46ORCPRO2CFG
+   Allocation error size adjusted
+CGFXVPIC46VGACFG
+   Allocation error size adjusted
+CGAMEGOOSEBIRD2X
+   Allocation error size adjusted
+CWINMISCADV21WINADVEXE
+   Allocation error size adjusted
+
+   316 lost allocation units found in 224 chains
+    647168 bytes disk space would be freed
+
+CGFXVPIC46CVPICEXE
+   Is cross linked on allocation unit 16133
+CGFXVPIC46GENO5400CFG
+   Is cross linked on allocation unit 16138
+CGFXVPIC46TRI8800BCFG
+   Is cross linked on allocation unit 16139
+CGFXVPIC46TS4000HICFG
+   Is cross linked on allocation unit 16140
+CGFXVPIC46CONFIGDOC
+   Is cross linked on allocation unit 16141
+CGFXVPIC46VPICTXT
+   Is cross linked on allocation unit 16146
+CGFXVPIC46VIDEO7CFG
+   Is cross linked on allocation unit 16151
+CGFXVPIC46DEFINCONCFG
+   Is cross linked on allocation unit 16152
+CGFXVPIC46ATIWONDRCFG
+   Is cross linked on allocation unit 16153
+CGFXVPIC46GENO6400CFG
+   Is cross linked on allocation unit 16154
+CGFXVPIC46OAKCFG
+   Is cross linked on allocation unit 16155
+CGFXVPIC46HIRESCFG
+   Is cross linked on allocation unit 16156
+CGFXVPIC46AHEADACFG
+   Is cross linked on allocation unit 16157
+CGFXVPIC46VPICDOC
+   Is cross linked on allocation unit 16208
+CGFXVPIC46ORCPRO2CFG
+   Is cross linked on allocation unit 16184
+CGFXVPIC46EVERX673CFG
+   Is cross linked on allocation unit 16185
+CGFXVPIC46WAITCOM
+   Is cross linked on allocation unit 16186
+CGFXVPIC46MAXXONCFG
+   Is cross linked on allocation unit 16187
+CGFXVPIC46WAITDOC
+   Is cross linked on allocation unit 16188
+CGFXVPIC46EVERX678CFG
+   Is cross linked on allocation unit 16189
+CGFXVPIC46EGACFG
+   Is cross linked on allocation unit 16190
+CGFXVPIC46CONFIGEXE
+   Is cross linked on allocation unit 16191
+CGFXVPIC46README1ST
+   Is cross linked on allocation unit 16199
+CGFXVPIC46VGACFG
+   Is cross linked on allocation unit 16201
+CGAMEGOOSEBIRD2X
+   Is cross linked on allocation unit 16382
+CWINDOWSSYSTEMSOUNDDRV
+   Is cross linked on allocation unit 16380
+CWINDOWSGAMES0GRP
+   Is cross linked on allocation unit 16367
+CWINDOWSMAD7911BMP
+   Is cross linked on allocation unit 16341
+CMAGEDEMO22AKIN
+   Is cross linked on allocation unit 16151
+CMAGEDEMO22BKIN
+   Is cross linked on allocation unit 16257
+CMAGEPKIN22EXE
+   Is cross linked on allocation unit 16339
+CWINMISCGAMESDIALWORDEXE
+   Is cross linked on allocation unit 16184
+CWINMISCGAMESDIALWORDTXT
+   Is cross linked on allocation unit 16201
+CWINMISCADV21WINADVWRI
+   Is cross linked on allocation unit 16257
+CWINMISCADV21ADVKEY
+   Is cross linked on allocation unit 16265
+CWINMISCADV21ADVREC
+   Is cross linked on allocation unit 16275
+CWINMISCADV21FREEZER
+   Is cross linked on allocation unit 16339
+C386SPARTPAR
+   Is cross linked on allocation unit 16133
+CBNG2MBX
+   Is cross linked on allocation unit 16146
+
+  42366976 bytes total disk space
+   3958784 bytes in 4 hidden files
+    153600 bytes in 67 directories
+  36042752 bytes in 1496 user files
+   1564672 bytes available on disk
+
+      2048 bytes in each allocation unit
+     20687 total allocation units on disk
+       764 available allocation units on disk
+
+    655360 total bytes memory
+    579712 bytes free
+ 
+Brad Banko;  Dept of Physics;  U of Illinois;  bbanko@uiucedu
+=========================================================================
+See one  Do one  Teach one			73 de kb8cne @ n9lnqil

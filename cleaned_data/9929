@@ -1,0 +1,62 @@
+From dbd@icfhrbcom Douglas B Dodson
+Subject Windows 31 or DOS 50 or SMARTDRV or 
+
+Hello
+
+I thought this problem might have something to do with Windows 31 SMARTDRV and
+a VESA video cardany ideas
+
+I recently purchased a 486DX33 machine and am having problems where the 
+machine will suddenly freeze or reboot  This may happen in Windows 31 or DOS 
+50  Sometimes it is after printing a document sometimes after using the 
+mouse and sometimes just when I am sitting there  Twice when it happened the 
+machine rebooted and sounded seven beeps  I looked in the documentation and 
+the seven beep code meant a problem with interrupts  The machine has the 
+following configuration and files
+
+486DX33
+AMI BIOS
+525 and 35 floppies
+170 Meg IDE hard drive
+256k cache
+Microsoft compatible mouse on com1
+Citizen GSX145 on lpt1
+NI SuperVGA Monitor with VESA Windows Accelerator Card w 1Meg
+Two VESA slots
+Windows 31
+DOS 50
+
+CONFIGSYS
+==========
+DEVICE=CWINDOWSHIMEMSYS
+DOS=HIGH
+DEVICEHIGH=CDOSSETVEREXE
+FILES=20
+BUFFERS=20
+STACKS=9128
+
+AUTOEXECBAT
+============
+@ECHO OFF
+LH CWINDOWSSMARTDRVEXE 1024
+PROMPT $p$g
+PATH CDOS;CWINDOWS;CMOUSE
+LH CMOUSEMOUSE
+SET TEMP=CDOS
+LH CDOSDOSKEY 
+
+
+When the machine freezes I can't use the mouse or keyboard or use CtrlAltDel 
+to reboot  If any one can give me any help I would greatly appreciate it  If 
+anyone can help configure this machine for the best efficiency memory wise I 
+would appreciate that also
+ 
+Douglas B Dodson		 	Internet	DBD@ICFHRBCOM
+HRB Systems Inc			
+State College PA  USA			
+16804
+
+Disclaimer
+===========
+Any ideas or opinions expressed here do not necessarily reflect the ideas or 
+opinions of HRB

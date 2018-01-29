@@ -1,0 +1,28 @@
+From ferch@ucsubcca Les Ferch
+Subject Re MAC DISKS IN WINDOWS
+
+In 1t7529$agf@agateberkeleyedu miyamoto@ucseeBerkeleyEDU Carleton
+A Y Miyamoto writes 
+
+In article 1t6efv$1pj@binkleycsmcgillca gel@binkleycsmcgillca
+Gilles KHOUZAM writes
+Macseezip on ftpcicaindianaedu is supposed to read and write Mac
+disks  I've never tried it though  Good luck
+
+I just tried it but I can't say that it works 'cause it doesn't read 800K
+disks it only reads 144Mb If there a program that does read 800K disks
+please let me know
+
+I'm not sure that this is possible due to the way the Mac writes the 800k
+disk  I think the way the sectors are set up are different enough that a
+PC 35" can't read it  This is a hardware problem which software cannot
+correct  Hope this helps and correct me if I'm wrong
+
+You're right
+
+You cannot read or write a Mac or Apple II 800K 35" disk or Apple II
+525" disk without extra hardware However Mac 144MB disks can be read
+and written in a PC 35" HD drive with software only 
+
+This should probably be added to every PC and Mac FAQ file It sure gets
+asked enough

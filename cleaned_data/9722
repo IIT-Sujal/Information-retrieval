@@ -1,0 +1,31 @@
+From dmsilev@athenamitedu Daniel M Silevitch
+Subject Re Utility for updating Winini and systemini
+
+In article 1993Apr2018023418192@ozplymouthedu oddjob@ozplymouthedu Andrew C Stoffel writes
+ In article 1993Apr2015191218590@midwayuchicagoedu am37@midwayuchicagoedu writes
+ 
+ Unless I am completely misunderstanding you try using either Notepad or
+ syseditexe found in your system subdirectory to edit you ini files
+ You can add sysedit  regedit to a program group they are Windows
+ programs 
+ The syseditexe program is cool because it automatically opens you winini
+ systemini autoexecbat and configsys files to be edited
+ 
+ Is it possible to get it to load other ini files 
+ 
+
+No When the program is run it loads 4 configuration files; autoexecbat
+configsys winini and systemini There is no Open entry on the File
+menu You can only edit these four files If you need to edit some other
+program's ini file use Notepad or some other ASCII editor
+
+I wonder whether Microsoft intended for sysedit to be used or if it was
+just a holdover from the testing period and they forgot to take it out The
+reason I think this is because there is absolutely no mention in the manuals
+about this program and there is no online help for it just an About entry
+under the File menu The program looks like something that was intended for
+internal use only It's kind of a shame though It would have made a nice
+multifile replacement for Notepad
+
+Daniel Silevitch                           dmsilev@athenamitedu
+Massachusetts Institute of Technology

@@ -1,0 +1,7 @@
+From root@c1nkwacuk Convex UNIX
+Subject re Help with WinQVT
+
+
+I had a similar problem  try changing the netmask to 0000 or 2552552540
+
+Tommy

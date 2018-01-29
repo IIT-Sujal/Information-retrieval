@@ -1,0 +1,18 @@
+From ebosco@usoraclecom Eric Bosco
+Subject Re Windows Speaker Sound Driver
+
+In article 1993Apr192354306097@mnemosynecsduedu  
+alee@mnemosynecsduedu Alec Lee writes
+ Is there an ftp site where I can get the MS speaker sound driver   
+There's
+ a "soundexe" file that claims to be the driver but I'm suspicious since
+ it's not a drv file  
+ 
+ Thanks
+ 
+ Alec Lee
+
+The soundexe is actually a self extracting script which includes the drv  
+file  Works great
+
+Eric

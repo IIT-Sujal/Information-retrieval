@@ -1,0 +1,19 @@
+From am37@ellisuchicagoedu Drewster
+Subject Re Utility for updating Winini and systemini
+
+In article 1993Apr2008563829338@newsuitno sp@odinNoSubdomainNoDomain Svein Pedersen writes
+I nead a utility for updating deleting adding changing ini files for Windows 
+
+Do I find it on any FTP host
+
+Svein
+
+
+Unless I am completely misunderstanding you try using either Notepad or
+syseditexe found in your system subdirectory to edit you ini files
+
+The syseditexe program is cool because it automatically opens you winini
+systemini autoexecbat and configsys files to be edited
+
+Drewster am37@kimbarkuchicagoedu
+

@@ -1,0 +1,26 @@
+Subject Help with changing Startup logo
+From CDoelle@p26f3333n106z1fidonetorg C Doelle
+
+Hello Brad
+
+Monday April 26 1993 1724 Brad Smalling wrote to crosspost 1 All
+
+ BS For a VGA card these are the correct files but you can't just copy them
+ BS back and expect it to work  You have to create a new WINCOM file  Try
+ BS the command you will have to worry about what directories each file is in
+ BS since I don't know your setup
+
+ BS COPY B WINCNF+VGALOGOLGO+VGALOGORLE WINCOM
+
+ BS I grabbed this from Supercharging Windows by Judd Robbinsgreat book
+ BS This is also how you can put your own logo into the Windows startup
+ BS screen An RLE file is just a specially compressed BMP file
+
+Brad
+    What is the procedure used to 'specially' compress the BMP file  I would
+love to use some of my BMP files I have created as a logo screen  Thanks
+
+Chris
+
+
+  Origin chrisdoelle@f3333n106z1fidonetorg 1106333326

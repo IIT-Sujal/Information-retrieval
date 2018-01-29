@@ -1,0 +1,57 @@
+From davidgl@microsoftcom David Glenn
+Subject Re ATM or Truetypewhich to choose
+
+In article C4tDGtMqq@csnorg rjn@tealcsnorg wrote
+ csd25@keeleacuk CM Yearsley writes
+ 
+  I've just bought a PC which came with a bundle of Lotus stuff including
+  Adobe Type Manager version 115 As a newcomer to Windows I'm
+  confused about which I should be using ATM or Truetype 
+ 
+ If you are going to stay with ATM be sure to upgrade to 25 which
+ replaces 20 Who knows how old 115 is  25 is as fast as TT and if
+ you disable the small screen fonts ATM does better screen rendering at
+ the smaller point sizes
+
+Not true Both Type 1 and TT fonts can be of excellent quality and poor quality
+at any size It all depends on the font's maker and the complexity of the glyphs
+related to the size and resolution at which they are viewed Probably the reason
+for your opinionexperience that TT is inferior is because most TT fonts on the
+market today have been converted from Type 1 outlines to TT either by the font
+vendor or endusers using Fontographer or FontMonger instead of the TT fonts being
+handhinted to take advantage of the TT hinting language At best these converted
+TT fonts will be on a par with the Type 1 font of its orgin
+
+TrueType is a much richer and more robust hinting language than Type 1 the hinting
+of diagonals for instance which TT does and Type 1 cannot If you check out the
+Windows 31 core fonts Times Arial Courier Symbol Wingdings you'll see what can
+be done with TT There are other fonts out there that have been handhinted and not
+just converted Some of the Microsoft TT Font Pack 2 fonts are hinted very well
+
+ You can use both TT and ATM fonts at the same time if you like
+ ATM Type 1 fonts tend to be of higher quality
+ and be more complete in terms of foreign characters
+
+Again not true The characters in a TT or Type 1 font depend on the maker If someone
+converts a Type 1 font to TT they'll only get the characters in the font of orgin TT
+allows for much more flexibility in this area as well You can have thousands of glyphs
+in a TT font file MacPSWindowsUnicode char set and use the characters appropriate
+for the particular platform you are running the font on For instance all or our fontpack
+2 TT fonts have the MacWindows char set in them The metrics of the fonts are such that
+if the font is brought over to the mac the user will have access to the full mac char set
+
+
+ Regards                                            1001A East Harmony Road
+ Bob Niland                                          Suite 503
+ Internet  rjn@csnorg                              Fort Collins CO 80525
+ CompuServe 710442124                              303 2235209
+
+Hope this clears up some of the confusion Feel free to contact me if anyone would like
+more info
+
+Regards
+
+Dave Glenn
+Program Manager Microsoft TT font stuff
+davidgl@microsoftcom
+compuserve 724201067

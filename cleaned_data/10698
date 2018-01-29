@@ -1,0 +1,37 @@
+From Roger De Abreu roger@glennuwaterlooca
+Subject Re good autoexecbat and configsys for windows 31
+
+In article C6uF2DGz2@acsubuffaloedu Kan Mongwa
+mongwa@acsubuffaloedu writes
+In article C6s2uxn0F@acsubuffaloedu Kan Mongwa
+mongwa@acsubuffaloedu writes
+Do not load smartdrvsys if you are using stacker this applies for
+windows
+
+I replied
+
+Why   Do you mean just use smartdrvexe in autoexecbat 
+
+Roger
+
+You answered
+
+Quoting from windowssetuptxt
+Under the section for using stacker
+
+"For best performance do not use SMARTDrive to cache the
+compressed drive You only need to cache the uncompressed drive"
+
+Check it out for yourself
+
+I think it is important to clear up your first reply  You gave the
+impression that you should not use smartdrive with stacker   You are
+correct re caching the compressed drive  However as I understand it
+you can cache the uncompressed drive  Thus if you have compressed your
+disk C you will have a C and probably a D drive under stacker  C being
+the compressed disk which is just a large file on D and D being the
+uncompressed disk  You should only attempt to stack D  In fact with
+Win 31 and smartdrvexe it seems smart enough to automatically default
+to stacking your AB and D drives  
+
+Roger

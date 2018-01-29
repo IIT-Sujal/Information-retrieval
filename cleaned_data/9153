@@ -1,0 +1,25 @@
+From cgd@edenCSBerkeleyEDU Chris G Demetriou
+Subject Re PCGeos Windows OS2 and UnixX11
+
+In article C528HEI1q@newsucsmunca rcampbel@weejordyphysicsmunca Roderick Campbell writes
+=There is a free unix linux that has cc ~c++ fortran  f2c 
+=Xwindows and many other features besides with a large number of utilities
+=that can be optionally added And there is also a free 386BSD I believe
+=Both these unix's are quite robust You can check out composlinux
+
+i dunno about linux but for 386bsd don't forget networking
+well tested at that NFS a fast incredibly stable filesystem
+and the list goes on  8
+
+for us 386bsd folk look in compos386bsd
+
+
+
+
+chris
+moderator of compos386bsdannounce antipolitician and sometime evangelist
+
+Chris G Demetriou                                    cgd@csberkeleyedu
+
+   "386bsd as depth first search whenever you go to fix something you
+       find that 3 more things are actually broken"  Adam Glass

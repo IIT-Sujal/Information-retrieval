@@ -1,0 +1,24 @@
+From ChristianWenk@ac3mausde Christian Wenk
+Subject Re emm386 and windows
+
+Hallo 
+
+ebosco@usoraclecom wrote on 280493
+about  emm386 and windows
+
+
+eVon  ebosco@usoraclecom Mi 280493 1803
+eName Eric Bosco
+
+[]
+eShould I use emm386 or should I remove it from my configsys
+
+Basically
+Windows prefers extendend memory instead of expanded more work to do for Win
+and if no application desperatly needs EMS you should leave emm386
+with a "REM" in your configsys
+
+Bye
+    Chris
+
+

@@ -1,0 +1,24 @@
+From cmj@acsubuffaloedu christophe m johnson
+Subject Re How Redirect PRINT MANAGER To FILE
+
+In 70540011@hpcc01corphpcom reed@hpcc01corphpcom Perry Reed writes
+
+  hpcc01composmswindowsmisc  u7911093@ccnctuedutw "By SWH    958 am  Apr 24 1993 
+ Hello
+ 
+ 	Who can tell me   Where can I find the PD or ShareWare   
+ Which can CAPTURE windows 31's output of printer mananger
+
+If you are planning on using this on a regular basis conncting the printer
+to file can become bothersome because Windows then asks you for the filename
+that you want to create I've found that putting a line in systemini in the
+ports section with just a path and filename works The only problem is that
+if you send more than one job the second one deletes the first
+
+
+Chris
+ 
+ =======  cmj@acsubuffaloedu IS Christopher Johnson =======
+PGP Public key encryption for the masses      Disclaimer I didn't say that
+PGP encrypted mail WELCOME PGP public key pgppublickeys@toxicwastemitedu
+"Orwell may very well have been correct he just had the year wrong"  me

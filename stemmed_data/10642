@@ -1,0 +1,33 @@
+wiseb@colossuscsrpiedu bowden wise 
+subject deriv class object owl 
+
+try defin class deriv object class 
+mai insert hashtabl class provid 
+contain class librari 
+
+defin pure virtual function object 
+still get error attempt alloc hashentri object 
+
+creat instanc abstract class hashentri 
+
+anyone deriv class object left 
+virtual function defin object 
+
+virtual classtype isa const { return hashentryclass; } 
+virtual pchar nameofconst { return "hashentry"; } 
+
+virtual hashvaluetyp hashvalu const { return hashvaluehwindow; } 
+note hwindow defin hashentri 
+
+virtual int isequ const object far obj const 
+{ return == hashentri obj; } 
+
+virtual void printon rostream os const 
+{ 
+os "[ hwindow " void far hwindow " ]n"; 
+} 
+
+
+bowden wise 
+comput scienc dept renssela polytechnic inst troi ny 12180 
+internet wiseb@csrpiedu 

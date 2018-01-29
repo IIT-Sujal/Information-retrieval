@@ -1,0 +1,27 @@
+From ad060@Freenetcarletonca Mark Waschkowski
+Subject Re File Manager problem
+
+
+In a previous article mrw54660@engnxt01csouiucedu Michael R Whitchurch says
+
+Whenever I start File Manager the status bar is not displayed
+even though it is selected in the options menu If I deselect it
+then select it again the bar appears Anyone have any ideas why
+this is happening
+
+No not really It may be that your winfileini has gotten corrupted for
+some unknown reason Have you tried recreating it by either
+1exiting filemanager with the save setting option on when the status bar
+is visible
+or
+2double clicking on the Control menuthe one with minimize and maximize
+in in when everything looks proper
+
+If you have and it still doesn't work you may want to delete your
+winfileini and try one of these two saving procedures again to totally
+recreate the file from scratch
+
+Good luck
+
+Mark Waschkowski
+ 

@@ -1,0 +1,25 @@
+From JOEL@jachhawaiiedu Joel Aycock
+Subject Re page setup in Notepad
+
+In 1993Apr132005085167@cbnewshcbattcom krh@cbnewshcbattcom writes
+ I often use Notepad to view and print "readme" type files I often find
+ myself rushing to get to Print Manager to stop the printer and delete
+ the file from the print queue because I've forgotten to reset the print
+ margins from 75 inches left and right to 0 inches The resulting printed
+ text looks all chopped up because of the hard returns in the source file
+ 
+[]
+
+	I struggled with the margin problem for ages as well until I
+finally got hold of the shareware binary editor BEAV133 and dug into
+NOTEPADEXE there is no SETUP facility to force NOTEPAD to default to 
+00 margins it's hardwired into code 
+
+	Do a SEARCH for "75" then change the offending bytes to "00" 
+et viola Who are the guys who hardcode these "options" anyway
+
+	I'm interested in whether the problem only rears it's ugly head for 
+certain printers I'm using an old Epson LX800 or is that EX800 never can 
+remember
+
+aloha

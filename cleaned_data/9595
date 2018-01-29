@@ -1,0 +1,14 @@
+From yuan@wilikienghawaiiedu Maw Ying Yuan
+Subject Win31 ConfigSys query
+
+Hi there
+
+With a 16Megs of RAM is there a need to runload Smartdrv for
+Windows 31  If yes can I runload Ramdrive without Smartdrv
+If I need both Ramdrive  Smartdrv is the following ConfigSys
+settings OK  SMARTDRVSYS 2048 2048
+              RAMDRIVESYS 2048 E
+
+Thanks in advance for email reply
+
+yuan@wilikienghawaiiedu

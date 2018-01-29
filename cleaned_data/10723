@@ -1,0 +1,25 @@
+From jhardono@nickelucsindianaedu Independent Quorum Distributor Computer Seller Shipper
+Subject Why does My WIndow 31 restart my computer
+
+FILES=30
+BUFFERS=30
+DEVICE=CWINDOWSHIMEMSYS
+DEVICE=CWINDOWSSMARTDRVEXE DOUBLEBUFFER
+STACKS=9256
+
+and also my autoexecbat
+
+Cvshield
+CWINDOWSSMARTDRVEXE L
+rem  MouseWare 50 Setup 
+PATH=C;cdos;CWINDOWS;CFAX;CMOUSE;CWP51;
+SET TEMP=CWINDOWSTEMP
+MOUSE SER 2
+rem 
+cdosshare
+
+Have you seen this problem before Please help me out
+
+thanks
+
+Hadi

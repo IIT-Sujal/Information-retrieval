@@ -1,0 +1,35 @@
+From ewl@worldstdcom Erich W Lantz
+Subject WordBasic timedate variables
+
+
+I'm writing a mail management system using Word for Windows 20 as
+a front end The user dials up a remote system and downloads a batch
+of mail as "footxt " I've set up an AutoExec macro in Winword to load
+"footxt" OK but subsequent invocations of the macro will of course
+pose file name contention problems
+
+What I'd really like to do is to create an AutoExit macro in Winword
+that would move "footxt" to a specified directory rename it using
+the current date and time and delete the original "footxt "
+
+In other words "footxt" gets renamed as "5012300" say on May 1
+at 2300 the user gets a timeindexed backup of his mail files and
+"footxt" is freed up for the next packet of mail since my AutoExec
+macro points to it
+
+My main question is this 
+
+How may one rename a file from within a WordBasic macro to include a 
+timedate variable in the new filename 
+
+
+Thanks
+
+=======================================================================
+  "If you ever reach total enlightenment while drinking a beer
+   I bet it makes beer shoot out of your nose"  Jack Handey
+
+   Erich W Lantz  ewl@worldstdcom  Timberville VA  DoD 0815
+=======================================================================
+   
+

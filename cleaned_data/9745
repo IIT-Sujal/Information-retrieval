@@ -1,0 +1,14 @@
+From lei@rtsgmotcom Peter P Lei
+Subject DOS 6 vfintd386 and Windows sysini
+
+
+Does anyone know what the vfintd386 device is used for in windows 31
+It's under the [386enh] section as
+	device=cdosvfintd386
+
+After upgrading to dos 6 on several machines different types some include
+it some don't
+
+Any ideas
+
+pl

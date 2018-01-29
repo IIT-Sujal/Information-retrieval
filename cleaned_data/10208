@@ -1,0 +1,51 @@
+From tomh@metricscom Tom Haapanen
+Subject Re Hercules Graphite  Results
+
+ tomh@metricscom Tom Haapanen writes
+ Has anyone used a Hercules Graphite adapter  It looks good on paper and
+ Steve Gibson gave it a very good review in Infoworld  I'd love to get a
+ realworld impression though  how is the speed  Drivers  Support
+
+rda771v@monu6ccmonasheduau AB Wuysang writes
+ But the impressive performance of the Graphite was
+ not its Winmark it was its Wintach result esp the paint
+ performance Judging from the Wintach tests I can hardly
+ imagine that there is a cheat driver for it
+
+I received my Graphite VL on Thursday and I've had a little bit of 
+experience with it now  In general it feels FAST although this
+is the first VLB card that I have tried  Still the results are 
+impressive
+
+With my 486DX266 w16 MB running at 1024x768256 I've had the following
+WinTach 10 results
+
+
+Card				WP	CAD	Spread	Paint	Overall
+
+ATI Graphics Ultra		135	145	191	250	180
+ATI Ultra+ no aperture	112	138	107	209	141
+Hercules Graphite VL		161	678	414	528	445
+
+Unfortunately I don't have the numbers here but the ATI Ultra Pro VLB
+had an overall WinTach score of about 26  The Ultra Pro was nearly as
+fast in text handling but was blown away in the CAD and Paint tests
+
+As an additional test we handtimed a complex CorelDraw slide resize
+redraw times  There was no swapping but I'd expect there is a fairly
+heavy load on the CPU  The Graphite redraw times averaged about 102
+seconds with ATI Ultra Pro at 120  This jives with Steve Gibson's
+contention that the ISA Graphite is faster than an ATI UP on his complex
+Micrografx Draw document
+
+So far I'm very impressed  The drivers look solid and the card flies
+The installation and utilities are different but comparable to ATI's  And
+I didn't have to wait for Build 59 for some reliability  With Hercules'
+software developer special you can get an evaluation copy of the card for
+just $225 or $200 for the ISA version  Call 8005320600 if you want to
+give it a try  I'm a happy customer now
+
+ 
+[ tom haapanen  tomh@metricscom  software metrics inc  waterloo ont ]
+[       "stick your index fingers into both corners of your mouth  now pull ]
+[          up  that's how the corrado makes you feel"   car january '93 ]

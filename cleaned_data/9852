@@ -1,0 +1,31 @@
+From wimvh@liristewkuleuvenacbe Wim Van Holder
+Subject Re WINQVTNET with NDIS on Token Ring 
+
+In article 1993APR2121095440516@DATAMARKCONZ thomas@datamarkconz writes
+ In article 1993Apr21082152@liristewkuleuvenacbe wimvh@liristewkuleuvenacbe Wim Van Holder writes
+ Is it possible to use WinQVTNet on a machine that uses NDIS to connect to a
+ Token Ring  I tried it with older versions  32 but got an invalid packet
+ class error or something the like
+
+ How are you attempting to do that
+
+ Are you using the DISPKT9 program This provides a packet driver on
+ top of the NDIS driver
+
+
+I tried to do so but people told me that even if I used DISPKT the packets
+would still be incompatible Is this true 
+
+
+ 
+    Thomas Beagle  thomas@datamarkconz        Work 64 4 233 8186    o
+ Technical Writer  thomas@cavebbswellygennz  Home 64 4 499 3832  
+   Wellington NZ     Hound for hire Will work for dog biscuits   
+
+Wim Van Holder
+Katholieke Universiteit Leuven          Tel ++32 016285716
+Departement TEW                      FAX ++32 016285799
+Dekenstraat 2
+B3000 Leuven                           Email wimvh@liristewkuleuvenacbe
+BELGIUM                                         fdbaq03@cc1kuleuvenacbe
+

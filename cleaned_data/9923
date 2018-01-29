@@ -1,0 +1,35 @@
+From ebosco@usoraclecom Eric Bosco
+Subject Re Help with changing Startup logo
+
+In article 1rgtba$gtn@accessdigexnet farley@accessdigexcom Charles  
+U Farley writes
+ 
+ I know this is probably a FAQ but
+ 
+ I installed the sw for my ATI graphics card and it bashed my Windows
+ logo files  When I start Windows now it has the 30 logo instead of
+ the 31 logo
+ 
+ I thought the files that controlled this were
+ 
+ WINDOWSSYSTEMVGALOGORLE
+ WINDOWSSYSTEMVGALOGOLGO	
+ 
+ I restored these files but it didn't change the logo  Anyone know what
+ the correct files are
+ 
+ Thanks
+ 
+
+Somewhere ftpcicaindianaedu or SIMTEL20 mirror there is a program  
+called winlogozip that does the trick It works great I believe the  
+reason why you can't change the files you mentioned is that the logo is  
+actually imbeded into the windows executable Somebody please  
+correctexpand on this
+
+Eric
+
+ 
+  
+ farley@accessdigexcom  Charles U Farley
+ Average IQ of Calgary Board of Ed Employee 65

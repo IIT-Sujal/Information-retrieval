@@ -1,0 +1,16 @@
+From condor@trampccutexasedu George Kontoravdis
+Subject Problem with WinQVTNet 281 and DOS 60
+
+
+   I have been using WinQVTNet 281 under Win31 dos 50 for quite
+sometime without any problem  I recently installed DOS 60 on my 38640 PC
+and I cannot run WinQVTNet any more  I keep getting "Packet received for
+invalid portreset sent" messages on the console window  I can't
+get more than 1 telnet window and can't use ftp
+
+   Any suggestions would be greatly appreciated
+
+   Thanks
+   George Kontoravdis
+   condor@ccwfccutexasedu
+

@@ -1,0 +1,18 @@
+From yon@worldstdcom David A Yon
+Subject Lockups in 386 enh mode wfloppy
+
+Hi
+
+	I've got an older 38625 motherboard old as in uses a 1988
+keyboard controller and uses memory interleaving rather than caching
+It has developed a problem where trying to copy files from floppy cause
+the machine to lock up reset button required but only when in 386
+enhanced mode  This occurs in Norton Desktop File Manager and when
+trying to install software  Running Win 31 in standard mode works fine
+
+	Has anyone run into this  Any ideas  Much thanks appreciated
+
+David
+yon@worldstdcom
+
+

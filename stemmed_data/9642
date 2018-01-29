@@ -1,0 +1,153 @@
+btbg1194@uxacsouiucedu bradlei t banko 
+subject save hard disk alloc error crosslink 
+
+hi 
+
+runn ms quick c compil do window window 31 
+even got "program violat system integr close 
+applic exit window restart computer" error 
+
+start immedi got "seriou disk error" messag 
+window "hit return retry" 5 time 
+reboot find quit file corrupt somehow 
+includ chkdsk output 
+
+question 
+
+1 easi wai restor everyth work order 
+might better approach 
+
+2 might caus smartdrv cach make 
+vulner suspici hard drive cach especi 
+cach data write 
+
+straightforward approach run chkdsk f option 
+fix disk look like probabl reinstal window 
+thing 
+
+thank comment suggest 
+
+brad banko 
+
+ps 386sx machin 40mb hard drive 2 mb ram 
+
+
+chkdsk output 
+====================================================================== 
+volum serial number 115909d3 
+error found f paramet specifi 
+correct will written disk 
+
+cgfxvpic46cvpicex 
+alloc error size adjust 
+cgfxvpic46vpictxt 
+alloc error size adjust 
+cgfxvpic46video7cfg 
+alloc error size adjust 
+cgfxvpic46orcpro2cfg 
+alloc error size adjust 
+cgfxvpic46vgacfg 
+alloc error size adjust 
+cgamegoosebird2x 
+alloc error size adjust 
+cwinmiscadv21winadvex 
+alloc error size adjust 
+
+316 lost alloc unit found 224 chain 
+647168 byte disk space freed 
+
+cgfxvpic46cvpicex 
+cross link alloc unit 16133 
+cgfxvpic46geno5400cfg 
+cross link alloc unit 16138 
+cgfxvpic46tri8800bcfg 
+cross link alloc unit 16139 
+cgfxvpic46ts4000hicfg 
+cross link alloc unit 16140 
+cgfxvpic46configdoc 
+cross link alloc unit 16141 
+cgfxvpic46vpictxt 
+cross link alloc unit 16146 
+cgfxvpic46video7cfg 
+cross link alloc unit 16151 
+cgfxvpic46definconcfg 
+cross link alloc unit 16152 
+cgfxvpic46atiwondrcfg 
+cross link alloc unit 16153 
+cgfxvpic46geno6400cfg 
+cross link alloc unit 16154 
+cgfxvpic46oakcfg 
+cross link alloc unit 16155 
+cgfxvpic46hirescfg 
+cross link alloc unit 16156 
+cgfxvpic46aheadacfg 
+cross link alloc unit 16157 
+cgfxvpic46vpicdoc 
+cross link alloc unit 16208 
+cgfxvpic46orcpro2cfg 
+cross link alloc unit 16184 
+cgfxvpic46everx673cfg 
+cross link alloc unit 16185 
+cgfxvpic46waitcom 
+cross link alloc unit 16186 
+cgfxvpic46maxxoncfg 
+cross link alloc unit 16187 
+cgfxvpic46waitdoc 
+cross link alloc unit 16188 
+cgfxvpic46everx678cfg 
+cross link alloc unit 16189 
+cgfxvpic46egacfg 
+cross link alloc unit 16190 
+cgfxvpic46configex 
+cross link alloc unit 16191 
+cgfxvpic46readme1st 
+cross link alloc unit 16199 
+cgfxvpic46vgacfg 
+cross link alloc unit 16201 
+cgamegoosebird2x 
+cross link alloc unit 16382 
+cwindowssystemsounddrv 
+cross link alloc unit 16380 
+cwindowsgames0grp 
+cross link alloc unit 16367 
+cwindowsmad7911bmp 
+cross link alloc unit 16341 
+cmagedemo22akin 
+cross link alloc unit 16151 
+cmagedemo22bkin 
+cross link alloc unit 16257 
+cmagepkin22ex 
+cross link alloc unit 16339 
+cwinmiscgamesdialwordex 
+cross link alloc unit 16184 
+cwinmiscgamesdialwordtxt 
+cross link alloc unit 16201 
+cwinmiscadv21winadvwri 
+cross link alloc unit 16257 
+cwinmiscadv21advkei 
+cross link alloc unit 16265 
+cwinmiscadv21advrec 
+cross link alloc unit 16275 
+cwinmiscadv21freez 
+cross link alloc unit 16339 
+c386spartpar 
+cross link alloc unit 16133 
+cbng2mbx 
+cross link alloc unit 16146 
+
+42366976 byte total disk space 
+3958784 byte 4 hidden file 
+153600 byte 67 directori 
+36042752 byte 1496 user file 
+1564672 byte avail disk 
+
+2048 byte alloc unit 
+20687 total alloc unit disk 
+764 avail alloc unit disk 
+
+655360 total byte memori 
+579712 byte free 
+
+brad banko; dept physics; u illinois; bbanko@uiucedu 
+========================================================================= 
+see on on teach on 73 de kb8cne @ n9lnqil 

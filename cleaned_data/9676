@@ -1,0 +1,14 @@
+From ADBailey@lutacuk
+Subject Re Utility for updating Winini and systemini
+
+In article 1993Apr2008563829338@newsuitno sp@odinNoSubdomainNoDomain Svein Pedersen writes
+I nead a utility for updating deleting adding changing ini files for Windows 
+
+Do I find it on any FTP host
+
+Svein
+
+
+
+In Windows 30 there is a builtin called syseditexe that is just what you
+need   Windows 31 I don't know

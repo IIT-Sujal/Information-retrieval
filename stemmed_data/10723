@@ -1,0 +1,25 @@
+jhardono@nickelucsindianaedu independ quorum distributor comput seller shipper 
+subject window 31 restart comput 
+
+files=30 
+buffers=30 
+device=cwindowshimemsi 
+device=cwindowssmartdrvex doublebuff 
+stacks=9256 
+
+also autoexecbat 
+
+cvshield 
+cwindowssmartdrvex l 
+rem mousewar 50 setup 
+path=c;cdos;cwindows;cfax;cmouse;cwp51; 
+set temp=cwindowstemp 
+mous ser 2 
+rem 
+cdosshar 
+
+seen problem pleas help 
+
+thank 
+
+hadi 

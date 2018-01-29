@@ -1,0 +1,25 @@
+From adrienenazaretian@qmyaleedu Adriene Nazaretian
+Subject Re win nt
+
+In article 1pq66v$kkt@gazettebcmtmcedu raymaker@bcmtmcedu Mark Raymaker says
+
+Is anyone aware of existing ipxnetx software for WindowsNT or
+is attachment to Netware a FUTURE release
+please respond to internet mail raymaker@bcmtmcedu
+thanks
+
+
+I believe the beta version of the service is available via ftp on 
+ftpcicaindianaedu
+in pubpcwin3nt called something like nwntzip
+
+There is an INDEX ascii file there which lists the programs in that directory
+and what they do
+
+unfortunately this beta will also disable netbeui and tcpip over your
+primary nic so if you really want to run it get yourself an extra nic and
+bind it to that  
+
+Otherwise wait for next release like I am
+
+Adriene

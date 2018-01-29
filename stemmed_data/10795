@@ -1,0 +1,39 @@
+kwgeitz@slinkescaped karlw geitz 
+subject re data segment memori model usag 
+
+hello phjm wrote 
+
+firstli window 31 386 enhanc mode anyth special 
+dll compil us larg memori model 
+
+
+
+told even 386 enhanc mode window 
+will load dll real memori 640k pagelock 
+
+
+
+second question relat static data insid dll 
+wai get multipl instanc static data 
+segment dgroup 
+
+
+
+can alloc real static data within code segment 
+need dynamic memori can alloc data global heap 
+
+can forget written memori manag 31 
+page virtual memori can lock everi block without hamper 
+memori manag can us far pointer everytim without alwai lock 
+unlock memori block 
+
+besid dll' mostli just disguis exe' happen call 
+anoth task 
+
+
+karl 
+
+
+karlwgeitz hauptstr50 w3320 salzgitt 1 kwgeitz@slinkescaped 
+tel +4953006701 fax +4953006499 ci 100010204 bix geitzkwg 
+crosspoint v21 

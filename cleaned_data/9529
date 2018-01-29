@@ -1,0 +1,49 @@
+From rmohns@vaxclarkuedu
+Subject RE Need Windowslogo
+
+In a previous article dmmatt@cajun wrote
+In article 1qjqed$1ft@accessdigexnet holland@accessdigexcom Brian Holland writes
+ Markus Maier SMAIERM@rzmainrzuniulmde wrote
+  Hi
+ 
+  Well I'm searching for the MsWindows logo u know the picture when u
+  start Windows in some suitable graficsformat like gif or jpg
+ 
+ Cwindowssystemvgalogorle  If my memory serves me correctly
+ rle is a compressed bmp format  
+ 
+  An is readable by WinGif Paintshop Pro Paint and god knows how
+many other programs
+
+That isn't enough to change your Windows startup logo  vgalogorle is not 
+needed after you have installed Windows  It is incorporated as a part of 
+wincom
+	To make a new wincom you have to concatinate three files together 
+using the b option for a binary concatonation  I beleive it is
+
+copy b wincnf+vgalogolgo+vgalogorle mywincom
+
+Make sure you backup your wincom file in anotehr directory before you do this 
+ I absentmindedly typed wincom instead of mywincom and had to resinstall 
+Windows
+	Anyway substitute whatever RLE file you want  The wincnf has the 
+info needed to start Windows think of it as a bootstrap and vgalogovga has 
+video information  Just make sure that the RLE file doesn't tip the whole 
+COM file size over the 64k limit of a COM file
+	So anyway I use mywincom to startup MS Windows  Now instead of that 
+annoying Micro$oft advertisment I have the Joker yes from Batman taking 
+yoru picture from the screen saying "Smile"  Also a little bit of text 
+"Micro$oft Windows The world's first commercially sucessful virus"  I added 
+that because of the frequency of crashes grin
+
+Rob
+
+    				   ++
+   		===	        a post by    
+ 			        Rob Mohns    
+				         rmohns@     
+	I had no water so	     vaxclarkuedu  
+	I drowned in sand	   ++
+				            
+		  		            
+

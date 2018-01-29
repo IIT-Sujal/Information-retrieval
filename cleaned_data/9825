@@ -1,0 +1,19 @@
+From jeroeng@bladestackurctuenl Jeroen Gremmen
+Subject Re DOS 6 vfintd386 and Windows sysini
+
+Peter P Lei lei@rtsgmotcom wrote
+ 
+ Does anyone know what the vfintd386 device is used for in windows 31
+ It's under the [386enh] section as
+ 	device=cdosvfintd386
+ 
+I know Norton Desktop for Windows includes this file and its help file 
+mentioned something about floppydisk access
+
+Jeroen
+
+ 
+========================================================================
+JCA Gremmen              Email jeroeng@bladestackurctuenl
+Gildelaan 34                Phone 042553411 No modem or fax pleez
+5081 PH  Hilvarenbeek               

@@ -1,0 +1,24 @@
+From farley@accessdigexcom Charles U Farley
+Subject Help with changing Startup logo
+
+
+I know this is probably a FAQ but
+
+I installed the sw for my ATI graphics card and it bashed my Windows
+logo files  When I start Windows now it has the 30 logo instead of
+the 31 logo
+
+I thought the files that controlled this were
+
+WINDOWSSYSTEMVGALOGORLE
+WINDOWSSYSTEMVGALOGOLGO	
+
+I restored these files but it didn't change the logo  Anyone know what
+the correct files are
+
+Thanks
+
+
+ 
+farley@accessdigexcom  Charles U Farley
+Average IQ of Calgary Board of Ed Employee 65

@@ -1,0 +1,53 @@
+From varkki@ux1csouiucedu Varkki George
+Subject Strange messages when starting Windows
+
+
+On a recently acquired Gateway 2000 machine when starting Windows
+three copyright statements flash on the screen right after the MS logo
+disappears and before ProgramManager takes over  This does not happen
+on any other of our machines and I am wondering whether this is a
+feature or whether this is related to several problems we are having
+with the machine
+
+The system is a Gateway 2000 4DX33 machine
+
+The messages that appear are
+
+	c Copyright 19891992 Western Digital Corporation
+		All Rights Reserved
+	c Copyright 19851992 Congruent Corporation
+		All Rights Reserved
+	c Copyright 19851992 Microsoft Corporation
+		All Rights Reserved
+
+The AUTOEXECBAT file looks like this
+
+@ECHO OFF
+PROMPT $P$G
+SET MOUSE=CMSMOUSE
+CMSMOUSEMOUSE
+PATH=C;CDOS;CWINDOWS;c123;cwp51;fapps;fsystem;fwinapps;fpublic
+SET TEMP=CWINDOWSTEMP
+lh wd8003e n 0x62 5 0x280 0xd000
+lh winpkt 0x60 0x62
+lh ipx
+lh netx
+floginlogin
+win 
+
+The CONFIGSYS file looks like this
+
+DEVICE=CWINDOWSHIMEMSYS
+DOS=HIGHumb
+DEVICE=CWINDOWSEMM386EXE NOEMS X=D000D1FF
+STACKS=9256
+FILES=50
+BUFFERS=30
+SHELL=CDOSCOMMANDCOM P E1024
+
+Does anyone know what is going on  Any help would be much
+appreciated
+
+ 
+Department of Urban and Regional Planning   Email varkki@uiucedu
+University of Illinois at UrbanaChampaign  Tel    2172447059

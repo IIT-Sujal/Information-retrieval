@@ -1,0 +1,37 @@
+From rmohns@vaxclarkuedu
+Subject RE Help with changing Startup logo
+
+In a previous article louray@seasgwuedu Michael Panayiotakis wrote
+In article 735952415AA01739@f454fidonetorg CDoelle@p26f3333n106z1fidonetorg C Doelle writes
+Hello Brad
+
+Monday April 26 1993 1724 Brad Smalling wrote to crosspost 1 All
+
+ BS since I don't know your setup
+
+ BS COPY B WINCNF+VGALOGOLGO+VGALOGORLE WINCOM
+
+ BS I grabbed this from Supercharging Windows by Judd Robbinsgreat book
+ BS This is also how you can put your own logo into the Windows startup
+ 
+NOW another thing
+this is from the windows' FAQ
+ 
+your file has to be less than 64 K
+ at least that's what the faq says but Mine wont work for more than
+about 30maybe they mend 32K I don't know
+
+COM files are limited to a total size of 64KB  Thus wincfn plus vgalogolog 
+plus your RLE file must be less than 64KB  Thus your RLE file should be 
+around 30KB
+
+Rob
+
+
+                   Any resemblance between the above views and
+                Rob   those of my faculty advisor my terminal or
+           Mohns   the view out my window are purely coinci
+                        dental  Richard Traina may or may not
+         rmohns@vax  support said views but probably doesn't
+==================   clarkuedu   want Clarkies to think about them
+

@@ -1,0 +1,19 @@
+From dmittleman@misvmsbpaarizonaedu Daniel Mittleman
+Subject Re NDW Norton Desktop for Windows
+
+In article 1993Apr171305282773@lelandStanfordEDU shiva@lelandStanfordEDU Matt Jacobson writes
+ 
+I have an IBM and run Windows 31  A friend installed Norton Desktop For
+Windows on top of this  It loads automatically when I type "win" and
+surely adds to the already dismally slow process of starting up
+ 
+I would like to know how to STOP or uninstall this program
+Is there anyone familiar with NDW who can tell me how to turn it off
+
+    1 Get the friend to uninstall it
+    2 Read the manual though from your post I infer that you are using
+    pirated software
+    3 Go into SYSINI and change the SHELL= line to read SHELL=PROGMANEXE
+
+===========================================================================
+daniel david mittleman          danny@arizonaedu          602 6212932

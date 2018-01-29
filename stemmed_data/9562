@@ -1,0 +1,33 @@
+rnichols@cbnewsgcbattcom robertknichol 
+subject re truetype font displai print 
+
+articl 1993apr1713472515882@mintakalcsmitedu avinash@silverlcsmitedu avinash chopd write 
+just instal new truetype font mswindow 31 
+though applic displai font correctli 
+screen quit fail print document correctli 
+laserjet 4 nonpostscript printer 
+
+us window accessori write printer print squar 
+box place charact new font yet write 
+displai font correctli screen 
+
+common problem highli complex truetype font microsoft 
+admit problem older version postscript printer driver 
+found pretti gener 
+
+can get around problem adjust paramet outlinethreshold 
+[truetype] section winini entri specifi number 
+pelsperem window will render truetype font outlin font 
+instead bitmap font default 256 gener abl 
+get font work sett outlinethreshold=160 depend 
+printer resolut point size us mai need 
+differ valu 
+
+window resourc kit warn go 300 presum 
+might caus font print squar box someth 
+smile 
+
+
+bob nichol 
+att bell laboratori 
+rnichols@ihlpmihattcom 

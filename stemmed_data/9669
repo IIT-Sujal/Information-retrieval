@@ -1,0 +1,43 @@
+dpugsle@nswcwonswcnavymil donald pugslei 
+subject c7 linkseg problem call runtim function 
+
+small window program can get work; 
+program look vagu like 
+
+============================================= 
+char f1[80]; 
+
+int winmain 
+{ 
+lstrcpy lpstrf1 "hello"; 
+
+} 
+
+long far pascal wndproc 
+{ 
+lstrcpy lpstrf1 "hello"; 
+
+} 
+
+============================================= 
+us larg model window 31; link without 
+error rc program said 
+
+sort preload segment resourc fastload section 
+copi segment 1 53679 byte 
+rc fatal error rw1031 segment 1 
+reloc inform larg load 
+optim make segment loadoncal 
+rerun rc us k switch segment must 
+preload 
+
+us k switch seem interfer proper function 
+second lstrcpy call can anybodi explain go andor 
+fix 
+
+
+thank 
+pugslei dpugsle@nswcwonswcnavymil 
+
+
+

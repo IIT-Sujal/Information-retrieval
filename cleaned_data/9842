@@ -1,0 +1,14 @@
+From er+@cscmuedu Ekkehard Rohwedder
+Subject Re Help  Disappearing Groups
+
+In article 1r8anlINN60g@skeenaucsubcca ewoo@unixgubcca Emile Woo writes
+program manager but it seems that everytime I install something new that
+makes a new group it promptly disappears after I turn of windows
+
+1 Did you check that a new grp file was actually created in your Windows
+    directory
+2 Are you turning off your computer when windows is running rather than
+    closing Program Manager
+
+
+  Ekkehard

@@ -1,0 +1,19 @@
+From kmembry@viamarUUCP Kirk Membry
+Subject Re good autoexecbat and configsys for windows 31
+
+In 1993May922563742641@datamarkconz thomas@datamarkconz Thomas Beagle writes
+
+There is no need to load EMM386 QEMM or anything else on many
+Windows PCs It's only useful if you are still stuck with running
+MSDos based applications that need lots of low memory free
+
+Otherwise you just need to load HIMEMSYS and let Windows go straight
+to the Extended memory
+
+that's what I thought that's why I never used emm386exe before
+
+ 
+========================================
+Kirk Membry                                    "Our Age is the Age of Industry"
+rutgersviamarkmembry                          Alexander Rodchenko
+=======================================

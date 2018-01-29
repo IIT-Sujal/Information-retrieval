@@ -1,0 +1,19 @@
+From kaul@vnetibmcom
+Subject Re VESA Driver for IBM XGA
+
+In gmichael28736186695@vmdcsouiucedu gmichael@vmdcsouiucedu Gary R Michael writes
+Can anyone tell me where to find a standard VESA display driver that will 
+support the onthemotherboard XGA video of a 486 50Mz DX2 IBM Model 95
+85950LF  I need to use 640 x 480 and higher resolutions under both 
+Windows 31 and MSDOS  Minimum colors 256 at highest resolution with 64K 
+colors needed at 640 x 480
+
+The IBM XGA SVGA VESA driver is on the 202 reference diskette available
+from the IBM BBS  It's also on Compu$erve or you can bang on your sales
+rep to get you a later version
+
+=====================================
+Dick Kaul             My opinions only not official IBM positions etc
+IBM XGA Development   they'd make me wear a suit if I were to speak for IBM
+Boca Raton FL        "The use of unnecessary violence in the apprehension
+kaul@vnetibmcom      of the Blues Brothers has been approved"

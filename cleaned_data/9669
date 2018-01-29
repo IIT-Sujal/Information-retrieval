@@ -1,0 +1,43 @@
+From dpugsle@nswcwonswcnavymil Donald Pugsley
+Subject C7 linksegment problem calling runtime functions
+
+I have a small Windows program which I can not get to work; 
+The program looks vaguely like this
+
+=============================================
+char f1[80];
+
+int WinMain
+{
+  lstrcpy LPSTRf1 "Hello";
+  
+}
+
+long far pascal WndProc
+{
+  lstrcpy LPSTRf1 "Hello";
+  
+}
+
+============================================= 
+I am using large model under Windows 31; after linking without
+errors the RC program said
+
+Sorting preload segments and resources into fastload section
+Copying segment 1 53679 bytes
+RC  fatal error RW1031 Segment 1 and its
+     relocation information is too large for load
+     optimization Make the segment LOADONCALL or
+     rerun RC using the K switch if the segment must
+     be preloaded
+
+Using the K switch seems to interfere with the proper function of
+the second lstrcpy call can anybody explain what is going on andor
+how to fix it
+
+
+Thanks
+Pugsley  dpugsle@nswcwonswcnavymil
+
+
+

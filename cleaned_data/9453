@@ -1,0 +1,66 @@
+From spitz@anamedunimuenchende Richard Spitz
+Subject Re Help with WinQVT
+
+swartzjh@NeXTworkRoseHulmanEdu Jeff H Swartz writes
+
+  	when I use a name such as rosevcrosehulmanedu
+		Initiating nameserver query for 'rosevc'
+		nameserver query time out
+  	when I use the IP number
+		Local host or gateway not responding
+
+I know the nameserver is correct and the router is correct  They work  
+fine using NCSA telnetftp
+
+They are working ok but your definitions in QVTNETINI and QVTHOSTRC are
+incorrect see below
+
+The docs said if you are running concurrent packet software you need to  
+load PKTMUX  Does this apply to me
+
+No I don't think so You are using QVTNET and NOVELL concurrently aren't
+you They use different packet types so QVTNET TCPIP and NOVELL IPXSPX
+should be able to coexist just fine PKTMUX is required if you are using
+different TCPIPPackages concurrently
+
+This is the qvthostrc file
+13711252
+13711219950
+
+There is the first problem You didn't specify hostnames just IPAddresses
+Your file should look like this
+
+13711252        Name of your Nameserver
+13711219950     Name of your Router
+
+This is the beginning of the winqvtini file
+[net]
+name=swartzjhtestrosehulmanedu
+
+Here you should only specify your hostname without the domain part
+
+router=13711219950
+
+Instead use router=Name of your Router as specified in your QVTHOSTRC
+I know the release notes for 331 say that IP addresses should work also
+but  apparently they don't
+
+nameserver=13711252
+
+Here too you should use the hostname of the nameserver instead of the
+IP address
+
+It worked fine for me that way although I could not specify more than
+one nameserver The relnotes say it should be possible to specify up to
+three nameservers separated by commas but it didn't work
+
+Hope it helps
+Richard
+
+ 
++++
+ Dr Richard Spitz           INTERNET spitz@anamedunimuenchende   
+ EDVGruppe Anaesthesie      Tel      +498970953421                
+ Klinikum Grosshadern        FAX      +498970958886                
+ Munich Germany                                                       
++++

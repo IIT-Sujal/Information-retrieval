@@ -1,0 +1,23 @@
+From slc@a2cimcdccom Steve Chesney x4662
+Subject Re More Diamond SS 24X
+
+In article 1993Apr231709221911@odeticscom dale@odeticscom Dale Pischke writes
+In article 1993Apr2019585316179@sambaoituncedu diladmin@mhsuncedu Dave Laudicina writes
+Has anyone experienced a faint shadow at all resolutions using this
+card Is only in Windows I have replaced card and am waiting on 
+latest drivers Also have experienced General Protection Fault Errors
+in WSPDPSFDRV on Winword Tools Option menu and in WINFAX setup
+
+I had the exact same failure with the 24X and Word for Windows
+A quick call to Microsoft indicated it was problem with the
+24X drivers You need to call Diamond and get the new drivers
+I think version 203 fixes the above problem there may be later
+versions that I'm unaware of
+
+
+Version 203 drivers are current
+ 
+Steve Chesney                                    slc@catherinecimcdccom     
+Metaphase Technology Inc                        6124824662 voice
+4233 North Lexington Avenue                      6124824001 fax
+Arden Hills MN  55126

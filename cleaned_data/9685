@@ -1,0 +1,22 @@
+From oddjob@ozplymouthedu Andrew C Stoffel
+Subject Re Utility for updating Winini and systemini
+
+In article 1993Apr2015191218590@midwayuchicagoedu am37@midwayuchicagoedu writes
+
+Unless I am completely misunderstanding you try using either Notepad or
+syseditexe found in your system subdirectory to edit you ini files
+You can add sysedit  regedit to a program group they are Windows
+programs 
+The syseditexe program is cool because it automatically opens you winini
+systemini autoexecbat and configsys files to be edited
+
+Is it possible to get it to load other ini files 
+
+Drewster am37@kimbarkuchicagoedu
+
+
+
+ 
+Email   unx oddjob@ozplymouthedu vms andys@pscplymouthedu 
+Disclaimer  Any "enduser" software that provides NO avenue for user 
+of the week modification or programmability is NOT user friendly    

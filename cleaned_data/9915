@@ -1,0 +1,16 @@
+From srowe@fulcrumcouk Simon Rowe
+Subject Re exit codes dossorry for wrong group  
+
+Internal DOS commands certainly 33 and before do not set the exit
+code This is a royal pain if you want to do anything which checks for
+successful deletions etc The best suggestion is to use 4dos which
+does return you exit codes It also has move command
+
+	Simon
+
+
+Simon Rowe                                   srowe@fulcrumcouk
+Fulcrum Communications Ltd
+Birmingham			         Condition "BRAINOVERLOAD$" raised at
+ENGLAND				 5412012234
+

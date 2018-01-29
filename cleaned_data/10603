@@ -1,0 +1,558 @@
+From chen@vedacwruedu ChihKeng Chen
+Subject COntrol SYstems analysis PAcKageCOSYPAK v09updatedfor Mathematica
+
+
+                                                                  
+                            Announcing                            
+                                                                  
+                            COSYPAK                               
+                                                                                             
+              A symbolic COntrol SYstems analysis PAcKage                   
+                                                                  
+                           Version 09                             
+                            		                               
+                      NO USER FEE RELEASE                                    
+                                                                  
+                               for                                
+                                                                  
+                      Mathematica Version 20 or higher           
+                                                                  
+
+
+== INTRODUCTION
+
+  COSYPAK is set of packages and notebooks for classical control and 
+some modern state space control analysis and design methods The
+notebooks in COSYPAK follow a typical `Control Engineering I' course
+taught at many universities around the world for the juniorsenior 
+level undergraduates There is NO FEE to use COSYPAK but certain 
+responsibilities are expected of the user see Copyright notice in the 
+README file included below For starters email  FAX  Mail Post 
+the registration form included in the README file
+
+COSYPAK is available via `anonymous ftp' from
+
+          mishnaesyscwruedu INTERNET No  129224023 
+
+in the pub directory 
+
+PS A typical ftp session in UNIX is given after the README file 
+
+
+== FUTURE RELEASES
+
+   If you would like to receive updates and newer versions of
+COSYPAK please send emailFAXmail to the address
+below In addition your  comments and suggestions are
+appreciated and are invaluable to us We will do our  best
+to  fix any reported bugs However we cannot fix those
+bugs that  have not been  reported to us and those we do not
+know of We would  very much appreciate you taking  a few
+minutes to communicate to us  via email  US Mail  
+Telephone  FAX This will help us to release  bugfree
+versions in the future Comments are welcome 
+
+N Sreenath
+Systems Engineering Department
+Case School of Engineering
+Case Western Reserve University
+
+
+email sree@mishnacwruedu
+
+US Mail
+
+Prof N Sreenath                    Tel 216 3686219
+Systems Engg Crawford Hall         FAX 216 3683123
+Case Western Reserve Univ
+Cleveland OH 441067070
+  
+========================= Begin README file =========================
+
+
+
+
+                       NO USER FEE RELEASE
+
+			     COSYPAK 
+			     
+	       A symbolic COntrol SYstems analysis PAcKage
+			    
+			    Version 09                
+		 
+	                        for
+				
+                  	Mathematica Version 20 or higher
+
+                                by
+
+               CKChen 		N Sreenath
+		
+	     	         Systems Engineering
+		     Case School of Engineering
+	     	   Case Western Reserve University		
+	     	      Cleveland OH 441067070		       
+		      email sree@mishnacwruedu
+			
+ Copyright
+    Copyright Copyright 1992 by C K Chen and N Sreenath Case 
+Western Reserve University 
+        
+    Permission to use copy modify and distribute this software and 
+its documentation for any purpose and without fee is hereby granted 
+provided that the above copyright notice appear in supporting 
+documentation and the name of the Case Western Reserve University
+Case School of Engineering not be used in advertising or publicity 
+pertaining to distribution of the software without specific without 
+prior permission Case Western Reserve University makes no 
+representations about the suitability of this software for any 
+purpose It is provided "as is" with out express or implied warranty
+    		
+ Acknowledgements
+
+    Support from CWRU Information and Network Services  Dr Ray Neff
+Case Alumni Association The Lilly Foundation and the Systems 
+Engineering Department of Case Western Reserve University is 
+gratefully acknowledged Special thanks to Brian Evans of Georgia Tech  
+for all the help  
+
+ FTP
+
+     COSYPAK is available by anonymous `ftp' from 
+mishnaesyscwruedu Internet No 129224023 A sample ftp session 
+is given at the end of this file
+
+
+
+ Changes in Version 09 update from v081 to v09
+
+	In this version we have revised COSYPAK to take advantage of 
+the more robust signal processing functions available in Mathematica v21  
+Since Mathematica 21 provides a better  and  working 
+LaplaceTransform and InverseLaplaceTransform functions than 
+Mathematica v20 did we adopted them This has made COSYPAK 
+smaller Thus Brian Evans' Signal Processing packages that supported 
+the LaplaceTransform  and InverseLaplaceTransform functions in the 
+COSYPAK v081 are no longer needed directly by COSYPAK v09 For 
+power users who  use Signal Processing we still recommend the use of the very  
+fine  Brian Evans package on Signal Processing available at 
+the anonymous  ftp site gausseedspgatechedu  or  IP  13020722624  On  
+the  downside the disadvantage of this update 
+can be that Mathematica 21 requires more runtime resources than its 
+previous version 
+
+
+	
+ For Mathematica 20 users
+	
+	We have included the LaplaceTransform package from Mathematica 21 in  
+the directory `For20' Please move all files and directory under For20 into  
+the Calculus directory under Mathematica Packages directory 
+
+
+	    
+ Introduction
+   
+    This is an unsupported release of COSYPAK  a COntrol SYstems 
+analysis PAcKage for symbolic control systems analysis using 
+Mathematica 21 Classical control systems analysis and design methods and some  
+modern control systems methods have been implemented in this package 
+    
+    This package and the attendant notebooks were developed on a 
+NeXT TM computer a UNIX based workstation They have been 
+used as a supplementary teaching aid along with  standard control 
+engineering texts Ogata [1991] Phillips and Harbor [1991] for 
+undergraduate courses in `Control Engineering I' taught at the Systems 
+Engineering Department of CWRU In addition to the NeXT they have 
+also been tested successfully on Apple Macintosh computers TM and 
+IBM PC's TM running MS WindowsTM We would be very much interested 
+to hear from you if you or anybody you know uses this software on 
+platforms not mentioned above IBM users however will have to 
+evaluate the notebooks first to visualize the graphics
+
+    Once installed see below for instructions this  collection  of  
+Mathematica  packages  can be loaded by any user Bundled with the 
+packages are many notebooks "COSYNotes" which demonstrate  
+the functionality of these packages The notebooks follow a plan of 
+many fine standard undergraduate Control Engineering text books 
+listed in the references Examples used in these notebooks have 
+been collected from the various references given at the end of this 
+file The contents of the notebooks in the "COSYNotes" directory are 
+given below
+   
+  Begin "COSYNotes" Contents 
+ 
+ NOTEBOOK FILE NAME 01Introductionma
+ CHAPTER 1 Introduction to Control Systems
+	
+	Sections  
+	     Analyticity
+	     Poles and Zeros
+	     Signals
+	     Forward Laplace Transforms
+	     Inverse Laplace Transforms
+	     Differential Equation With ZeroValued Initial Conditions
+	     Differential Equation With Initial Conditions
+	     	     
+ 
+ 
+ NOTEBOOK FILE NAME 02MathModelsma
+ CHAPTER 2 Mathematical Modeling of Dynamic Systems
+
+ 	 Sections  
+	      ODE to State Space  
+	      Linearization of a Nonlinear System of Equations  
+	      State Space to Transfer Function
+		     
+ 
+ 
+ NOTEBOOK FILE NAME 03TransientResponsema
+ CHAPTER 3 TransientResponse Analysis  
+            Chapter split into three sub notebooks because of file
+	     size
+
+	 NOTEBOOK FILE NAME 031TransientResponsema
+            
+	    Sections        
+	      Time Response Analysis  
+	      First order System  
+	      Second Order System  
+	      Third Order and Higher Order Systems
+	      
+         NOTEBOOK FILE NAME 032TransientResponsema
+            
+	    Sections          	      
+	      First Order System Step Response vs Time Const  
+	      
+	      
+         NOTEBOOK FILE NAME 033TransientResponsema
+            
+	    Sections  
+	      Second Order System Step Response vs Damping Ratio  
+	      
+	            
+ 
+
+ NOTEBOOK FILE NAME 04SteadyStateResponsema
+ CHAPTER 4 SteadyState Response
+ 
+         Sections	      
+	      Routh's Stability 
+ 	      SteadyState Error Analysis
+                
+ 
+		
+ NOTEBOOK FILE NAME 05RootLocusma
+ CHAPTER 5 RootLocus Analysis
+
+ 
+ 
+ NOTEBOOK FILE NAME 06FreqResponsema
+ CHAPTER 6 FrequencyResponse Analysis
+
+         Sections
+	      Bode Plot Analysis  
+	      Magnitude vs Phase Plot Nichols Plot
+	      Polar Plot  
+	      Nyquist Plot  
+	      Combined Example
+	      
+ 
+ 
+ NOTEBOOK FILE NAME 07StateSpacema
+ CHAPTER 7 State Space Methods
+
+         Sections
+	      Introduction
+	      State Transition Matrix
+	      Controllability
+	      Observability
+	      Output Controllability
+	      Pole Placement Design 
+	      Observer Design
+	      Time Response Using State Space Methods
+
+ 
+  End Notebook Contents 
+ 
+
+ Compressed Files
+
+        The files that contain  a  complete set of the COSYPAK v09
+packages and Notebooks for Mathematica are
+
+ COSYPAK09tarZ     		compressed tar file for Unix systems
+	
+ COSYPAK09sithqx     	compressed sit file for Macintosh 
+ 				systems and encoded by BinHex 40 
+				format requires the   shareware
+				 Stuffit file v 151 or higher 
+	
+ COSYPAKIBM09zip    	zip file for the IBM PC running MSDOS
+    
+     Once expanded the Mathematica files can also be used on 
+Macintosh  IBM PC  Unix systems also
+
+
+ Installation of COSYPAK
+
+ o In UNIX Command line type the following command
+
+      zcat COSYPAK09tarZ  tar xvf 
+
+ o In Macintosh open the sithqx file using the shareware
+    Stuffit v 151 or higher
+  
+ o In IBM Command line type the following command
+
+      pkunzip o d COSYPAKIBM09zip
+
+NOTE This zip file was zipped by zip utility v20 You must use 
+pkunzip version 20 or  higher to unzip it  IBM PC's may limit the 
+directory name characters to eight In that event type "pkunzip o d 
+COSYPAKzip  You can also unzip the COSYPAKIBM09zip file on any 
+Unix machine if you have unzip utility on it
+
+
+     Uncompressing and untarring "COSYPAK09tarZ" or unzipping 
+"COSYPAKIBM09zip" will create a directory called "COSYPAK"
+         	
+Once the files are expanded you should see a single directory 
+"COSYPAK" containing the following three files four 
+subdirectories and their contents
+
+SUBDIRECTORIES in "COSYPAK"  
+  COSYPAK     contains control tool box packages 
+  MANUAL      COSYPAK manual in ps rtf txt and wn formats 
+  COSYNotes  contains notebooks 
+  For20     contains Laplace transform package from Mathematica 21
+  		For Mathematica 20 users	 
+    		
+FILES in directory "COSYPAK"
+  chap1m   chap2m   chap3m  chap4m  chap5m   chap6m  chap7m
+	
+FILES in directory "COSYNotes"
+	01Introductionma	  
+	02MathModelma
+	031TransientResponsema   
+	032TransientResponsema   
+	033TransientResponsema   
+	04SteadyStateResponsema
+	05RootLocusma	  
+	06FreqResponsema 
+	07StateSpacema         
+	
+FILES in directory "For20"
+	LaplaceTransformm     DiracDeltam	
+	SUBDIRECTORIES in "COSYPAK"	Common
+	FILES in directory "Common"  Supportm
+
+ Important 	
+
+	The notebook example filesma files will be under the 
+"COSYNotes" directory  To use the notebooks move the directory `COSYPAK' to  
+a 
+directory that  Mathematica can recognize 
+	
+        LocalLibraryMathematicaPackages     	on a UNIX machine
+        MYHardDiskMathematicaPackages   	on an Apple Macintosh
+        cwinmathpackages                  	on an IBM PC
+
+	At the beginning of the "Initialization" cell of each notebook 
+in  "COSYNotes" directory we list the example about how to make 
+Mathematica identify the directory
+
+	 Initialization of Path 
+
+	 Example For a UNIX machine  Default  
+	
+	$Path=Join[$Path
+	{"LocalLibraryMathematicaPackages"}];
+	
+	
+	 Example For an Apple Macintosh   
+	
+	$Path=Join[$Path
+	{"MYHardDiskMathematicaPackages"}];
+	
+	
+	 Example For IBM PC 	
+	 
+	
+	$Path=Join[$Path	
+	 {"cwinmathpackages"}];	
+		
+
+Change the pathname according to your machine by removing the 
+Mathematica comment sign `' and `' before and after `$Path' 
+setting
+
+	This command makes Mathematica recognize the directory
+
+        LocalLibraryMathematicaPackages     	on a UNIX machine
+        MYHardDiskMathematicaPackages   	on a Apple Macintosh
+        cwinmathpackages                	on an IBM PC
+
+
+ Mathematica 20 users
+	
+	We include the LaplaceTransform package from Mathematica 21 in 
+the directory For20 Please move all files and directory under For20 
+into the Calculus directory under Mathematica Packages directory 
+
+
+ Getting started
+
+       After installation start Mathematica and open the notebooks in 
+the "COSYNotes" directory All notebooks load their own packages 
+Navigate in the notebooks and enjoy IBM users however will have to 
+evaluate the notebooks to visualize the graphics
+    
+ 
+
+ USER RESPONSIBILITIES
+
+      We request you to take a few minutes and fill out the 
+information below and mail it to us by email  FAX  US Mail This 
+will help us to keep your abreast of the improvements and release new 
+versions of COSYPAK Suggestions for improvements are welcome
+
+cut here
+  
+  YOUR NAME     
+ 
+  ORGANIZATION  
+  
+  TITLE         
+  
+  email        
+
+  POSTAL ADDRESS
+  
+                 
+		   
+  Comments      
+  
+  Suggestions   
+		 
+                 
+		 
+
+
+
+cut here
+
+Mail this information to Email  FAX  US Mail 
+
+INTERNET sree@mishnacwruedu
+
+US Mail
+
+Prof N Sreenath                    Tel 216 3686219
+Systems Engg Crawford Hall         FAX 216 3683123
+Case Western Reserve Univ
+Cleveland OH 441067070
+  
+ 
+
+ REPORT BUGS
+
+     Please report bugs and leave comments to the address above 
+Any suggestion for improvements and criticism are welcome
+
+     We will do our best to  fix any reported bugs However we cannot 
+fix those bugs that have not been  reported to us and those we do not 
+know of We would very much appreciate you taking  a few minutes to 
+communicate to us via email  US Mail   Telephone  FAX This will 
+help us to release bugfree versions in the future
+	
+	
+
+
+ Disclaimer and Future Releases
+
+ 	This software is the property of the Case Western Reserve 
+University Use this software at your own risk We make no express or 
+implied  warranty
+
+	The packages and the notebooks can also be made to run under 
+Mathematica versions 20 or lower with modification We do not 
+guarantee the outcome
+
+
+ Documentation
+
+        COSYPAK functions are indexed in the files in the 
+`MANUAL' directory according the chapters Usage is illustrated in 
+notebooks residing in `COSYNotes' directory  If your computer does 
+not support notebooks find a Macintosh computer and acquire MathReader 
+which is a public domain notebook reader MathReader will at least 
+allow you to peruse notebooks but you will not be able to evaluate 
+any code fragments
+	
+
+ References
+
+Dorf R C "Modern Control Systems" Sixth Edition Addison 
+Wesley New York 1992
+
+Fortmann T E and Hitz K L "An Introduction to Linear Control 
+Systems" Marcel Dekker 1977
+
+Franklin G F Powell D J and EmamiNaeini A "Feedback 
+Control of Dynamic Systems" Second Edition Addison Wesley New 
+York 1991
+
+Kuo B C "Automatic Control Systems" Sixth Edition Prentice Hall 
+New Jersey 1990
+
+Ogata K "Modern Control Engineering" Second Edition Prentice 
+
+Hall New Jersey 1991
+
+Phillips C L and Harbor R D "Feedback Control Systems" 
+Second Edition Prentice Hall New Jersey 1991
+
+
+========================= End README file =========================
+
+TYPICAL `ftp' session 
+
+
+ftp mishnaesyscwruedu
+Connected to mishna
+220 mishna FTP server Version 520 NeXT 10 Sun Nov 11 1990 ready
+
+Name mishnaesyscwruedusree anonymous
+
+Password
+
+ftp cd pub
+
+ftp binary
+
+ftp ls
+200 PORT command successful
+150 Opening ASCII mode data connection for file list
+COSYPAK09tarZ
+COSYPAKIBM09zip
+Index
+README
+placeswmd
+COSYPAKuntar
+226 Transfer complete
+78 bytes received in 0 seconds 1535 Kbytess
+
+ftp get COSYPAK09tarZ
+200 PORT command successful
+150 Opening BINARY mode data connection for COSYPAK09tarZ 460822 bytes
+226 Transfer complete
+local COSYPAK09tarZ remote COSYPAK09tarZ
+460822 bytes received in 133 seconds 338e+02 Kbytess
+
+ftp quit
+221 Goodbye
+
+
+
+

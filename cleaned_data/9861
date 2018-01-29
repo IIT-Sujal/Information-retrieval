@@ -1,0 +1,41 @@
+From kuehnel@rvsunihannoverde Stefan Kuehnel SWL
+Subject Re NT Questions
+
+In article 5802@newsyaleedu adrienenazaretian@qmyaleedu Adriene Nazaretian writes
+ In article 1993Mar2602042729119@sambaoituncedu tclark@meduncedu Thomas B Clark says
+
+[]
+
+ 2  Is the driver support as seamless as program support
+ eg Will my Soundblaster scanner CDRom tape backup
+ continue to work even if there are no specific NT drivers
+ 
+ There is a hardware compatibility guide to answer these questions
+ There are many drivers for CD Rom and there are MIDI and other
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ sound drivers installed I dont do a lot with sound digitizing on this
+ platform but recall seeing items for their configuration in the Control
+ Panel Applet  There is built in support for tape backup systems as well
+
+[]
+
+My Problem I wasn't aware of the fact that I would need an SCSICDROM for
+Windows NT when ordering the BetaSDKPackage So my question Is there any driver
+available that will allow me to use my Mitsumi NonSCSI CDROM for installation 
+If there is one from which place ftpsite can I get it 
+
+Many thanks in advance
+
+	Stefan Kuehnel
+
+
+
+     Stefan K"uhnel
+     
+     kuehnel@rvsunihannoverde   
+     kuehnel@swlunihannoverde neu ab 17041993
+    
+     Die oben wiedergegebene Meinung ist meine private und nicht die         
+       des RRZN des LG RVS der UH oder einer anderen Institution             
+
+

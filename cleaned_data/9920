@@ -1,0 +1,27 @@
+From gt2617c@prismgatechEDU Brad Smalling
+Subject Re Help with changing Startup logo
+
+In article farley@accessdigexcom Charles U Farley writes
+I installed the sw for my ATI graphics card and it bashed my Windows
+logo files  When I start Windows now it has the 30 logo instead of
+the 31 logo
+I thought the files that controlled this were
+WINDOWSSYSTEMVGALOGORLE
+WINDOWSSYSTEMVGALOGOLGO	
+I restored these files but it didn't change the logo  Anyone know what
+the correct files are
+
+For a VGA card these are the correct files but you can't just copy them
+back and expect it to work  You have to create a new WINCOM file  Try
+the command you will have to worry about what directories each file is in
+since I don't know your setup
+
+COPY B WINCNF+VGALOGOLGO+VGALOGORLE WINCOM
+
+I grabbed this from Supercharging Windows by Judd Robbinsgreat book
+This is also how you can put your own logo into the Windows startup screen
+An RLE file is just a specially compressed BMP file
+
+Hope this helps
+ 
+Brad Smalling  JrEE  GA Tech  Atlanta GA  gt2617c@prismgatechedu

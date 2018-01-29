@@ -1,0 +1,15 @@
+From wild@accessdigexcom wildstrom
+Subject Re MathCad 40 swap file
+
+baseball@catchthefeverscducaredu Gregg Walters writes
+
+I have 16MB of memory on my 386SX  I have been running Windows
+without a swap file for several months  Will Mathcad 40 be
+happy with this or insist on a swap file
+
+Presumeably you mean without a permanent swap file If Windows needs a
+swap file it will upo and create one if a permanent one doesn't exist
+Permanent is generally faster though I don't know why Mathcad wouldn't
+be happy with either typeVer 30 is and so should any program conforming
+to the Win specification
+

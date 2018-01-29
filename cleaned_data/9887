@@ -1,0 +1,21 @@
+From ekalenda@netcomcom Edward J Kalenda
+Subject Re overlapped window without a title bar
+
+From article 1rc07h$ern@oliveaATCOlivettiCom by manu@oasolivetticom Manu Das
+ 
+ I have a overlapped windowsay V which has few child windows abc etc
+ The window shows up with all it's children fine Now I create another 
+ childt with a WSTHICKFRAME style and placed on top of one or more of
+ it's siblings Style WSTHICKFRAME is used so that I can resize it How do
+ I make sure that the child 't' will always be at the top of it's siblings
+ I used SetWindowPos and BringWindowToTop without success What's happening
+ is that while I am resizing 't' it shows up but as soon as I let go it goes
+ behild it's siblings
+
+The window is probobly on top but the lower windows are drawing over it
+Try using WSCLIPSIBLING to keep the lower siblings from drawing on the
+top sibling's space
+ 
+
+Ed
+ekalenda@netcomCOM

@@ -1,0 +1,29 @@
+From ashok@biochemistrycwruedu Ashok Aiyar
+Subject Re Telnet Terminal for Windows 
+
+In article 1993Apr3021183921296@lelandStanfordEDU kocks@chemistryStanfordEDU Peter Kocks writes
+
+I'm looking for a good terminal program that will connect to
+TCPIP using windows Some basic MSWindow that is connect to
+a unix host would be great
+
+Any suggestions
+
+Take a look at WinQVTnet  the latest version is QVTnet 34
+It comes in versions that are direct to packet driver as well as a PC NFS 
+version
+
+It is priced quite low; registration = $40 student registration = $20 and is 
+a nice package  comes complete with VT220 terminal emulation FTP POP3 
+client LPR and NNTP client
+
+You can FTP it from "biochemistrybioccwruedu" pubqvtnetqvtnet34zip
+
+It was also uploaded to ftpcicaindianaedu recently
+
+Ashok
+
+
+Ashok Aiyar                        Mail ashok@biochemistrycwruedu
+Department of Biochemistry                       Tel 216 3683300
+CWRU School of Medicine Cleveland Ohio         Fax 216 3684544

@@ -1,0 +1,22 @@
+From downs@heliosnevadaedu Lamont Downs
+Subject Re Windows gripe
+
+     There's one thing about Windows that really frosts me
+I have 20MB of RAM installed in my system I use a 5MB 25MB
+under Windows diskcache and a 4MB permanent swap file
+
+     While I can never fill the memory up I still have problems
+sometimes because I run out of GDI resources What gives
+I think Windows could manage these resources a little better
+
+Are you using Windows 30 or 31 If you're still on 30 31 devotes about
+twice as much memory to these and runs out much less frequently If 31
+you might use one of the resource monitors such as the one that comes with
+the Windows 31 Resource Kit or one of the many shareware ones available
+to see which programs are hogging the resources every icon internal
+graphics brush etc in every program running uses a certain amount of
+this limited memory area Also some don't give it back when they're
+finished
+
+Lamont Downs
+downs@nevadaedu

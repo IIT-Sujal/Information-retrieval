@@ -1,0 +1,28 @@
+Subject re WINBENCH 311 help  graphics comparison
+From srg3sir@grvgracecrinz
+
+
+
+In article C4zoGDC56@newsudeledu swyatt@bachudeledu Stephen L Wyatt writes
+I have a question about WINBENCH pc labs thing 311
+
+I have a 38633 and a Ahead B 512k card and got these results
+
+windows vga driver  244 million
+ahead B 640480256 driver  455000 winmarks
+windows svga 80060016 driver  168 million winmarks
+
+I was thinking about upgrading to a diamond 24x card I read it had about
+8 million winmark
+
+obviously this is MUCH MUCH greater but is this in 256color mode or what
+is this a good cardstreet price is about $170
+
+On my 386dx 33Mhz 4Mb RAM
+Winbench 25
+ 24x v202 167M        1668274
+     v203 167M        1668985
+     v203 16           4602428
+     v203 256          7635278
+Richard Mayston
+maystonr@gracecrinz

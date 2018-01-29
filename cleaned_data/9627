@@ -1,0 +1,23 @@
+From ffritze@hpwadWADHPCOM Fromut Fritze
+Subject Re Need help writing MS EXCEL macro
+
+    for eachstudent do
+       begin
+          LowestScoreFound = MaxPossibleValue
+          for I = 1 to NumberOfAssignments do
+             begin
+                  if Score[I]  LowestScoreFound then
+                     LowestScoreFound = Score[I] 
+             end
+          TotalScore = SUMall scores  LowestScoreFound
+       end
+
+Couldn't you simply use MIN as you use SUM and than subtract it
+from SUM 
+
+
+internet ffritze@hpwbe007wadhpcom
+phone    Germany 7243 602296
+address  Fromut FRITZE Waldbronn Analytic Division RD
+	  Hewlett Packard Str D 7517 Waldbronn 2 Germany
+
