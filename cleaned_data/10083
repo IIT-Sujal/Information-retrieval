@@ -1,7 +1,7 @@
 From wcl@riscspsmotcom Wayne Long
 Subject Observation  Floppy copy works under PGM MGR but not DOS shell
 
-Has anyone observed this  If I copy a large say 800K+ file a large PKZIP
+Has anyone observed this  If I copy a large say 800K file a large PKZIP
 file for instance to my floppy drive 35" under MS Windows 31 via either
 Program Manager or a DOS Shell the file copied under the DOS shell 
 has errors whereas the file copied from within Program Manager does not

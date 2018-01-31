@@ -1,13 +1,13 @@
-manu@oasolivetticom manu da 
+manu da 
 subject overlapp window without titl bar 
 
 
 hi 
 
 simpl question possibl creat overlapp thickfram 
-window without titl bar; ie 
+window without titl ie 
 
-wsoverlapp wsthickfram ~wscaption 
+wsoverlapp wsthickfram wscaption 
 
 
 seem abl get rid titl bar 
@@ -18,16 +18,16 @@ overlapp windowsai v child window abc etc
 window show children fine now creat anoth 
 childt wsthickfram style place top on 
 sibl style wsthickfram us can resiz 
-make sure child 't' will alwai top sibl 
+make sure child will alwai top sibl 
 us setwindowpo bringwindowtotop without success happen 
-resiz 't' show soon let go goe 
+resiz show soon let go goe 
 behild sibl 
 
 help greatli appreciat 
 
 manu 
 
-pleas mail manu@oasolivetticom 
+pleas mail 
 
 
 

@@ -2,9 +2,9 @@ From mlin@pdx222NoSubdomainNoDomain Ming T Lin
 Subject WORD = BYTE 
 
 
-    I just moved from Borland C++ 30 to Visual C++ today When I tried
-to compile my C++ program it complained a function prototype problem
-It turned out that the typedef WORD in MS C++ is a BYTE not unsigned int
+    I just moved from Borland C 30 to Visual C today When I tried
+to compile my C program it complained a function prototype problem
+It turned out that the typedef WORD in MS C is a BYTE not unsigned int
 
     Could anyone shine some light on this subject  Why a WORD is a BYTE 
 

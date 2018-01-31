@@ -1,48 +1,48 @@
-dbd@icfhrbcom dougla b dodson 
-subject window 31 do 50 smartdrv 
+dougla b dodson 
+subject window do smartdrv 
 
 hello 
 
-thought problem might someth window 31 smartdrv 
+thought problem might someth window smartdrv 
 vesa video cardani idea 
 
-recent purchas 486dx33 machin problem 
-machin will suddenli freez reboot mai happen window 31 do 
-50 sometim print document sometim us 
+recent purchas machin problem 
+machin will suddenli freez reboot mai happen window do 
+sometim print document sometim us 
 mous sometim just sitt twice happen 
 machin reboot sound seven beep look document 
 seven beep code meant problem interrupt machin 
 follow configur file 
 
-486dx33 
+
 ami bio 
-525 35 floppi 
-170 meg id hard drive 
-256k cach 
-microsoft compat mous com1 
-citizen gsx145 lpt1 
-ni supervga monitor vesa window acceler card w 1meg 
+floppi 
+meg id hard drive 
+cach 
+microsoft compat mous 
+citizen 
+ni supervga monitor vesa window acceler card w 
 two vesa slot 
-window 31 
-do 50 
+window 
+do 
 
 configsi 
-========== 
-device=cwindowshimemsi 
-dos=high 
-devicehigh=cdossetverex 
-files=20 
-buffers=20 
-stacks=9128 
+
+
+
+
+
+
+
 
 autoexecbat 
-============ 
-@echo 
-lh cwindowssmartdrvex 1024 
-prompt $p$g 
-path cdos;cwindows;cmous 
+
+
+lh cwindowssmartdrvex 
+prompt 
+path 
 lh cmousemous 
-set temp=cdo 
+set 
 lh cdosdoskei 
 
 
@@ -51,12 +51,12 @@ reboot on can give help greatli appreci
 anyone can help configur machin best effici memori wise 
 appreci also 
 
-dougla b dodson internet dbd@icfhrbcom 
+dougla b dodson internet 
 hrb system inc 
 state colleg pa usa 
-16804 
+
 
 disclaim 
-=========== 
+
 idea opinion express necessarili reflect idea 
 opinion hrb 

@@ -5,7 +5,7 @@ Hi I am using a dtk 38620Mhz 13Meg memory to run a variety of
 programs and have had problems off and on with lock up
 but now I am trying to run an application that wants a lot of memory
 over a period of time Playmation 24 bit rendered and it is 
-locking up Everytime  I have an ATI ultra + w2Meg which I have
+locking up Everytime  I have an ATI ultra  w2Meg which I have
 tried in each of the video modes I have excluded the region of
 video memory from A000C800 segments from the use of emm386
 have tried adjusting the swap partion from large to nonexistant to

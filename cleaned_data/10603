@@ -548,7 +548,7 @@ ftp get COSYPAK09tarZ
 150 Opening BINARY mode data connection for COSYPAK09tarZ 460822 bytes
 226 Transfer complete
 local COSYPAK09tarZ remote COSYPAK09tarZ
-460822 bytes received in 133 seconds 338e+02 Kbytess
+460822 bytes received in 133 seconds 338e02 Kbytess
 
 ftp quit
 221 Goodbye

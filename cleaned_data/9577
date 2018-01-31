@@ -9,8 +9,8 @@ come across a few that look good
 
   Zapp 11 from Inmark
   Zinc 35 from Zinc software
-  C++Views from Liant
-  Win++ from Blaise
+  CViews from Liant
+  Win from Blaise
 
 Some considerations I'm using
 
@@ -21,8 +21,8 @@ programming the new programming methodology should be closely aligned with
 the native one  I don't believe arbitrary levels of abstraction just for the
 sake of changing the API are valuable
 
-The Microsoft Founation classes afx that come with CC++ 70 and 
-Visual C++ are very good they already have a version for NT
+The Microsoft Founation classes afx that come with CC 70 and 
+Visual C are very good they already have a version for NT
 it comes with source code and is very close to the navtive API
 It also as some classes to manage data structures
 

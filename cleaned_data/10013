@@ -14,7 +14,7 @@ black returns
 This persists even if the machine is powered on and off
 
 I am working with an app developed using Borland's 31 application frameworks
-and c++  It seems to work fine
+and c  It seems to work fine
 
 Hardware is a 486 with 16meg ram; not on a network  Video is a TSENG 
 vga  dos 50

@@ -1,16 +1,16 @@
 From David A Fuess
-Subject Re Visual c++
+Subject Re Visual c
 
-It is correct that VC++ is NOT considered an upgrade for C7 C7 is
-basically a DOS product VC++ is a Windows product As Windows is not
+It is correct that VC is NOT considered an upgrade for C7 C7 is
+basically a DOS product VC is a Windows product As Windows is not
 an upgrade for DOS it is a separate operating system product line its
 utilities cannot be upgrades for DOS utilities However I have also
 been told that it is NOT an upgrade for QCWIN which it should be
 
 In article 735708181AA00457@therosepdxcom DonHancock@f303n105z1fidonetorg Don Hancock writes
-My understanding is that Visual C++ IS MSC80 Is it not What I mean is
+My understanding is that Visual C IS MSC80 Is it not What I mean is
 it is intended as a logical upgrade to MSC7 which I own I AM VERY 
-interested in VC++ but I can't find ANYTHING about it Tell me more
+interested in VC but I can't find ANYTHING about it Tell me more
 How's the editor Is it a TRUE windows app MSC7  which I love  is NOT
 How are compile times exe sizes How smart is the linker How WELL does it
 do DOS apps I would like to be one of the few programmers still pumping out
@@ -23,10 +23,10 @@ Thanx
  If it wasn't for C we would be using BASI PASAL and OBOL
  Blue WaveQWK v210
 
-+++
+
                         David A Fuess       
                       Dir Center for EECS 
                       Phone 5104232436 
             Fax   5104229343 
-+ Lawrence Livermore National Laboratory +
+ Lawrence Livermore National Laboratory 
 

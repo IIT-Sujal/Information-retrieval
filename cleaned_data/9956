@@ -5,14 +5,14 @@ Well I'm amazed at how successful this exercise was I received 20
 responses and 4 requests for summary Thanks to everyone who made it
 possible
 
-On my own I was able to find out about Codebase Accsys and Q+E Codebase
-and Accsys are C libraries without SQL Q+E is a Windows application
+On my own I was able to find out about Codebase Accsys and QE Codebase
+and Accsys are C libraries without SQL QE is a Windows application
 that can be communicated through Windows DDE calls where you send a SQL
 string and receive the results
 
 Most people wrote to tell me about the Paradox Engine from Borland Other 
 products mentioned were Microsoft's ODBC Accsys Quadbase Codebase
-RBASE and Q+E Only ODBC Quadbase RBASE and Q+E have SQL
+RBASE and QE Only ODBC Quadbase RBASE and QE have SQL
 
 For myself I decided on Codebase mostly because it has an ANSI C
 portability version that runs under DOS UNIX etc and includes the
@@ -56,19 +56,19 @@ library of functions for accesing database files from both Pascal I think
 turbo Pascal 55 and up and C I think either Microsoft or Borland
 
 Now reading the box it's "Borland Paradox Engine  Database
-Frameworks"  Works with any Borland CC++ Mocrosoft C 601 or later
-Turbo C++ for Windows Turbo Pascal 60 or later TP for Windows 10 or
-later  For Framework applications BC++ 30 or later or MS CC++ 70 It
+Frameworks"  Works with any Borland CC Mocrosoft C 601 or later
+Turbo C for Windows Turbo Pascal 60 or later TP for Windows 10 or
+later  For Framework applications BC 30 or later or MS CC 70 It
 does have support for object useage
 
 I haven't had a real chance to really use it myself but it looks fairly
 complete I'm planning to use it this summer
 Rick
  
-++
+
   Rick Osterberg   osterber@huscharvardedu  6174937784  6174933892  
      2032 Harvard Yard Mail Center   Cambridge MA   021387510   USA     
-++
+
 
 
 
@@ -130,20 +130,20 @@ ftpuunetvendormicrosoftodbcsdk  This is the way that we've
 chosen to access databases from all of our apps
 mj
  
-++
+
  PPPPP  SSSSSIIIIII   Specialists in MSWindows and WindowsNT Development  
  PP  PPSS      II     Call for information about our OOAOOD tool  OOAiD  
  PPPPP  SSSS   II     Michaeljon Miller                   mikem@apertuscom 
  PP        SS  II     Proficient Solutions Inc               6128602181 
  PP    SSSSS IIIIII   2877 Holmes Ave So 5          Minneapolis MN 55408 
-++
+
 
 
 
 
 Borland sells the "Paradox Engine" which is a C language interface to
 Paradox dBase Btrieve ans ASCI files  They also sell "Database Frameworks"
-which includes the engine plus a collection with source of C++ classes
+which includes the engine plus a collection with source of C classes
 for using the engine
 
  
@@ -155,7 +155,7 @@ eroethke@emscdccom
 
 I actualy have Paradox Engine  It is a library of functions large model
 for accessing the Paradox's databases  It seems to be working fine
-but I never did try it thouroughly  It costs ~200$
+but I never did try it thouroughly  It costs 200$
 
 Hope it will help you
 
@@ -210,10 +210,10 @@ mike@vpnetchiilus
 
 
 
-Yes borland sells their Paradox Engine separately  It has C C++ and
+Yes borland sells their Paradox Engine separately  It has C C and
 Pascal interfaces although the underlying interface is in 'C' Well at
 least for version 20 of the Engine which I have costed $99 at Egghead
-They now have version 30 of the engine and a separate C++ class package
+They now have version 30 of the engine and a separate C class package
 for it
 
 
@@ -304,9 +304,9 @@ email  tim@srccppautahedu
 
 
 
-I don't know about Microsoft but Borland sells the Paradox Engine for CC++ 
+I don't know about Microsoft but Borland sells the Paradox Engine for CC 
 Pascal in one package  And if you want dBase compatible files there is a 
-library called CodeBase from Sequiter software that works with CC++
+library called CodeBase from Sequiter software that works with CC
 
 From davidr@rinconemarockwellcom David J Ray
 
@@ -314,10 +314,10 @@ From davidr@rinconemarockwellcom David J Ray
 
 
 
-We're using Q+E database libraries to do what you describe
+We're using QE database libraries to do what you describe
 It's a set of DLL's accessed through a common API to talk to most of the
 major database formats We're using it to build an application that
-queries several databases using SQL queries All access using Q+E is
+queries several databases using SQL queries All access using QE is
 done using SQL The package is available through Microway in Melbourne I
 believe it is produced by Pioneer Systems in the US We have no
 association with Microway or Pioneer Systems other than being satisfied
@@ -338,7 +338,7 @@ chris@sulawlawsuOZAU               Armidale NSW 2351
 Paradox Engine 30 provides a complete set of C libraries for 
 accessing Paradox tables However it seems that it supports 
 only BorlandTurbo C and MicroSoft C When I tried to compile 
-the engine's sample applications with the Waterloo WATCOM CC++
+the engine's sample applications with the Waterloo WATCOM CC
 32bit compiler it complains that the library file LLIBCELIB 
 is missing even though I am quite certain that the file is NOT
 part of WATCOM C or the engine Anybody have any success with 

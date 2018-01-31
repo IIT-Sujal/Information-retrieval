@@ -1,24 +1,24 @@
-yuki@issutokyoacjp ito takayuki 
+ito takayuki 
 subject re bmp format mean 
 
-articl robertsa735922084@unix2tcdi 
-robertsa@unix2tcdi andrew l robert write 
+articl 
+andrew l robert write 
 
 exactli window bitmap format look like mean 
 data store width height colour bitmap data 
 find anyth th user manual refer materi 
 give inform 
 
-thomas@sunshinekodakcom thoma kinsman 
+thoma kinsman 
 newsgroup composmswindowsprogrammermiscaltbinariespicturesutil 
 subject dibbmp creation guid request 
 keyword dib bmp bitmap file format 
-messageid 1992dec2321443218764@kodakkodakcom 
-date 23 dec 92 214432 gmt 
-sender news@kodakkodakcom 
+messageid 
+date dec gmt 
+sender 
 organ precambiran electron rochest ny 
-line 484 
-xref cradletitech composmswindowsprogrammermisc3609 
+line 
+xref cradletitech 
 
 
 
@@ -33,17 +33,17 @@ guid creation dib imag
 thoma b kinsman 
 
 precambrian electron 
-29 falstaff rd 
-rochest ny 14609 
-thomask@kodakcom 
-copyright march 15 1991 
+falstaff rd 
+rochest ny 
+
+copyright march 
 
 
 
 abstract 
 
-format imag creat us ms window 3031 
-applic document ms window programmer' 
+format imag creat us ms window 
+applic document ms window 
 refer guid guid intend clearifi 
 word specif put forth 
 recommend among variou altern 
@@ -53,7 +53,7 @@ pleas thank write time
 keep name document thank 
 respect 
 
-document copyright 1991 thoma b kinsman 
+document copyright thoma b kinsman 
 desir postscript version document 
 avail 
 
@@ -63,37 +63,37 @@ sue wrong
 
 overview 
 
-dib imag file format intend "devic independ bitmap" 
-file format microsoft mean "devic independent" unclear 
-four pixel resolut support 1 bit 4 bit 8 bit 24 bit 
+dib imag file format intend independ 
+file format microsoft mean unclear 
+four pixel resolut support bit bit bit bit 
 pixel 
 
 imag intend us do ibm littleendian system 
 creat anoth architectur will byte 
 swap short long integ valu 
 
-convent dib imag end extens "bmp" 
+convent dib imag end extens 
 
 
 
-march 15 1991 
+march 
 
 
 
 
 
-2 
 
 
-superset earlier "bitmap imag files" consequ 
-will sometim hear dib file referr "bmp" file 
 
-sinc dib imag file superset three "flavors" dib 
+superset earlier imag consequ 
+will sometim hear dib file referr file 
+
+sinc dib imag file superset three dib 
 imag 
 o do dib imag recommend convent 
 form will describ creat intend 
-applic runn ms window 30 do environ 
-o os2 dib imag understand flavor 
+applic runn ms window do environ 
+o dib imag understand flavor 
 dib imag us present manag 
 o oldstyle bitmap imag 
 
@@ -136,80 +136,80 @@ o oldstyle bitmap imag
 
 
 
-march 15 1991 
+march 
 
 
 
 
 
-3 
+
 
 
 differ flavor 
 
 do dib imag consist 
-1 "bitmapfileheader" file header identifi file 
+file header identifi file 
 dib file header also give total size imag 
 file offset imag data 
-2 "bitmapinfoheader" imag header specifi imag 
+imag header specifi imag 
 attribut 
-3 option palett color us imag exist 
-mai contain 2 16 256 entri entri window 
+option palett color us imag exist 
+mai contain entri entri window 
 rgbquad structur 
-4 imag data 
+imag data 
 
 
-os2 dib imag consist 
-1 "bitmapfileheader" file header identifi file 
+dib imag consist 
+file header identifi file 
 dib file header also give total size 
 imag file offset imag data 
-2 "bitmapcoreheader" imag header specifi imag 
+imag header specifi imag 
 attribut 
-3 option palett color us imag 
-exist mai contain 2 16 256 entri entri 
+option palett color us imag 
+exist mai contain entri entri 
 window rgbtripl structur 
-4 imag data 
+imag data 
 
 
 old style imag bitmap consist 
-1 either bitmapinfohead bitmapcorehead header 
+either bitmapinfohead bitmapcorehead header 
 type determin first long integ dword valu 
-2 option color palett palett mai compos 
+option color palett palett mai compos 
 either window rgbquad structur header 
 bitmapinfohead window rgbtripl structur header 
 bitmapcorehead 
-3 imag data 
+imag data 
 
 
 creat dib imag file 
 
 creat do dib imag file consist sever straight forward step 
 header need creat written file header 
-structur defin ms windows30 "windowsh" includ file 
-palett inform need store imag 24bit 
+structur defin ms includ file 
+palett inform need store imag 
 imag five gener step 
-1 fill bitmapfilehead bitmapinfohead 
+fill bitmapfilehead bitmapinfohead 
 structur basic imag inform 
-2 imag 1bit 4bit 8bit imag creat 
+imag imag creat 
 color palett rgbquad 
-3 calculat total file size putt inform 
+calculat total file size putt inform 
 
 
 
-march 15 1991 
+march 
 
 
 
 
 
-4 
 
 
-"bfsize" field bitmapfilehead 
-4 calculat offset imag data start 
-file putt "bfoffbits" field 
+
+field bitmapfilehead 
+calculat offset imag data start 
+file putt field 
 bitmapfilehead 
-5 write file bitmapfilehead bitmapinfohead 
+write file bitmapfilehead bitmapinfohead 
 color palett imag data order 
 
 follow section describ structur term microsoft c type 
@@ -258,32 +258,32 @@ dword four byte unsign integ
 
 
 
-march 15 1991 
+march 
 
 
 
 
 
-5 
+
 
 
 bitmapfilehead 
 
-structur defin "windowsh" 
-typedef struct tagbitmapfilehead { 
-word bftype; 
-dword bfsize; 
-word bfreserved1; 
-word bfreserved2; 
-dword bfoffbits; 
-} bitmapfileheader; 
+structur defin 
+typedef struct tagbitmapfilehead 
+word 
+dword 
+word 
+word 
+dword 
 
-"bftype" field two ascii charact 'b' 'm' serv 
+
+field two ascii charact serv 
 identifi file dib imag file intel byte order 
 machin ibm compat constant can form c 
-quantiti 'm' 8 'b' == 0x4d42 intel system 
+quantiti intel system 
 
-"bfsize" field total size file purpos 
+field total size file purpos 
 field equal size bitmapfilehead plu size 
 bitmapinfohead plu number entri color palett time 
 size rgbquad plu number byte imag data 
@@ -291,10 +291,10 @@ imag data written uncompress form valu can
 calculat ahead time otherwis field need fill 
 later 
 
-"bfreserved1" "bfreserved2" field alwai set 
+field alwai set 
 zero 
 
-"bfoffbits" field set offset start imag data 
+field set offset start imag data 
 start file purpos field set 
 size bitmapfilehead plu size 
 bitmapinfohead plu number entri color palett time 
@@ -318,90 +318,90 @@ write color palett on exist
 
 
 
-march 15 1991 
+march 
 
 
 
 
 
-6 
+
 
 
 bitmapinfohead 
 
-structur defin "windowsh" 
-typedef struct tagbitmapinfoheader{ 
-dword bisize; 
-dword biwidth; 
-dword biheight; 
-word biplanes; 
-word bibitcount; 
-dword bicompression; 
-dword bisizeimage; 
-dword bixpelspermeter; 
-dword biypelspermeter; 
-dword biclrused; 
-dword biclrimportant; 
-} bitmapinfoheader; 
+structur defin 
+typedef struct 
+dword 
+dword 
+dword 
+word 
+word 
+dword 
+dword 
+dword 
+dword 
+dword 
+dword 
 
-"bisize" field set size bitmapinfohead structur 
+
+field set size bitmapinfohead structur 
 read imag file valu us 
 determin imag contain bitmapinfohead 
 bitmapcorehead 
 
-"biwidth" field width imag imag pixel 
+field width imag imag pixel 
 
-"biheight" field height imag imag line 
+field height imag imag line 
 
-"biplanes" field alwai set 1 data written 
+field alwai set data written 
 on color plane 
 
-"bibitcount" field bitdepth imag must either 
-1 4 8 24 depend bitdepth imag data 
+field bitdepth imag must either 
+depend bitdepth imag data 
 
-"bicompression" field tell imag data compress 
+field tell imag data compress 
 compress dib imag support two form runlength encod 
 howev never seen imag us know yet 
-work set field zero long zero 0l indic 
+work set field zero long zero indic 
 data compress 
 
 subsequ field bitmapinfohead structur mai set 
 zero requir interprett softwar abl 
 comput field necessari previou inform 
 
-field might want explicitli specifi might "biclrused" 
-4bit 8bit imag field indic 
-possibl color entri us imag contain "biclrused" 
-color us 32 color 8bit imag mai 
-want save 32 possibl 256 palett entri gener set 
+field might want explicitli specifi might 
+imag field indic 
+possibl color entri us imag contain 
+color us color imag mai 
+want save possibl palett entri gener set 
 field zero 
 
 
 
-march 15 1991 
+march 
 
 
 
 
 
-7 
+
 
 
 color palett 
 
 entri color palett rgbquad structur rgbquad 
-structur defin "windowsh" includ file 
-typedef struct tagrgbquad { 
-byte rgbblue; 
-byte rgbgreen; 
-byte rgbred; 
-byte rgbreserved; 
-} rgbquad; 
-"rgbreserved" field alwai zero color us amount 
+structur defin includ file 
+typedef struct tagrgbquad 
+byte 
+byte 
+byte 
+byte 
+
+field alwai zero color us amount 
 blue green red fill structur structur 
-written file valu zero "rgbblue" "rgbgreen" 
-"rgbred" field indic particular compon 
-contribut color composit valu 255 
+written file valu zero 
+field indic particular compon 
+contribut color composit valu 
 field indic compon contribut fulli color 
 composit 
 
@@ -414,40 +414,40 @@ file creator format determin creativ
 certainli 
 
 within imag data line written padd next four 
-byte quantiti 8bit imag on pixel 
+byte quantiti imag on pixel 
 wide still write four byte everi imag line 
 number byte per line can calculat 
 
-bytesperline = widthinpix bitdepth + 31 32 4; 
+bytesperline widthinpix bitdepth 
 
 term field bitmapinfohead structur 
 
-bytesperline = biwidth bibitcount + 31 32 4; 
+bytesperline biwidth bibitcount 
 
 
 write imag data must write bottom line first 
 bottom line imag look screen 
 first line imag data file 
 
-1bit 4bit 8bit imag inform written 
+imag inform written 
 expect on bit imag padd eight pixel byte four bit 
 imag padd two pixel byte eight bit imag written on 
 pixel per byte twentyfour bit imag written three byte per pixel 
-howev 24bit imag inform must written 
+howev imag inform must written 
 order blue green red imag file format write data 
 
 
 
-march 15 1991 
+march 
 
 
 
 
 
-8 
 
 
-"rgb" order dib imag file write data "bgr" 
+
+order dib imag file write data 
 order 
 
 summari 
@@ -498,14 +498,14 @@ can modifi document accordingli
 
 
 
-march 15 1991 
+march 
 
 
 
-thoma b kinsman rochest ny thomas@acadiakodakcom 
-"practic random kind senseless act beauty" anon 
+thoma b kinsman rochest ny 
+random kind senseless act anon 
 
 
-ito takayuki yuki@issutokyoacjp 
+ito takayuki 
 senior depart infom scienc 
 faculti scienc univers tokyo japan 

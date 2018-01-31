@@ -1,7 +1,7 @@
-cui@maccsmcmasterca jun cui 
+jun cui 
 subject hold control window object 
 
-us bc++' objectwindow version 31 try get data 
+us objectwindow version try get data 
 process window object howev call program invok 
 window object give control window object keep 
 execut next statement like call program 
@@ -9,25 +9,25 @@ invok window object wait window object close
 can program mai look like 
 
 class mywindow public twindow 
-{ 
 
-}; 
+
+
 
 void mycallingprog call program c function 
-{ 
-mywindow mywinobj; 
-mywinobj = new mywindow; 
-getapplicationmakewindowmywinobj; 
-mywinobjshowswshownormal; 
 
-next statement; want program wait mywinobj 
+mywindow 
+mywinobj new 
+
+
+
+next want program wait mywinobj 
 close can get data back 
 mywinobj specifi window style 
 wspopupwindow help wai 
 execut window object call 
 program give control help 
-} appreciat thank jun 
-talk lord ps2 mswindow 
+appreciat thank jun 
+talk lord mswindow 
 
 
 

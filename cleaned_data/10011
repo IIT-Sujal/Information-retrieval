@@ -155,7 +155,7 @@ arptime=20
 packetvector=60 or whatever is appropriate
 
 Save the changes and then writeprotect this file
-"attrib +r qvtnetini"
+"attrib r qvtnetini"
 
 Start your slip connection and remember the name and IP address
 that you are assigned  Each time you start QVTnet 31x the
@@ -177,7 +177,7 @@ slipper com2
 pktintcom
 bootpq i "ip="s""   myip
 bootpq i "My IP is s"
-copy q net + myip + noip ecomqvtnetqvtnetini
+copy q net  myip  noip ecomqvtnetqvtnetini
 del q myip
 @echo off
 echo 

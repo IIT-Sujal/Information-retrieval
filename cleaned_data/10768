@@ -29,13 +29,13 @@ that have been "mounted" using join
 
 In particular the worst offender is Word for Windows 20x  It gets very
 confused when you edit and then try to save a file on a joined drive It
-wants to create the saved file as ~NNNNNtmp in the current dir then
-delete the old file and rename the ~NNNNNtmp file to the doc file
+wants to create the saved file as NNNNNtmp in the current dir then
+delete the old file and rename the NNNNNtmp file to the doc file
 
-Unfortunately WfW usually writes the ~NNNNNtmp file in some idiotic
+Unfortunately WfW usually writes the NNNNNtmp file in some idiotic
 place other than the current directory often in the root dir of the
 joined filesystem but not always  Then after deleting the original
-doc file it can't find the ~NNNNNtmp file to rename it  Unless you
+doc file it can't find the NNNNNtmp file to rename it  Unless you
 search your disk systems the document is gone
 
 I have also found subtle problems using the MKS toolkit from a DOS box

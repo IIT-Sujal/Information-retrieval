@@ -1,53 +1,53 @@
-rnichols@cbnewsgcbattcom robertknichol 
-subject re permana swap file do 60 dbldisk 
+robertknichol 
+subject re permana swap file do dbldisk 
 
-articl 93059@hydragatechedu gt4356c@prismgatechedu jame dean barwick write 
+articl jame dean barwick write 
 
 permen swap file 
 
 sure everyon uncompress part compress hard disk 
-seen messag "you select swap file greater suggest 
-sizewindow will us size suggesteddo wan't creat 
-swap file anyway" someth like 
+seen messag select swap file greater suggest 
+sizewindow will us size suggesteddo creat 
+swap file someth like 
 
 well friend mine robert call microsoft ask 
 said window check amount free disk space 
-divid number 2 check largest contigu block 
+divid number check largest contigu block 
 free disk space window suggest smaller two number 
 
 also said absolut circumstancesnonewil window 
-us swap file larger suggest size wellthat' 
+us swap file larger suggest size 
 said 
 
-call bull@$ true window report memori 
+call true window report memori 
 avail go us 
 
 think support droid malfunct confus disk space 
 limit virtual address space limit far disk 
 concern limit amount contigu free space 
-limit caus messag "window will us " 
+limit caus messag will us 
 amount virtual address space virtual memori manag will 
 creat function amount free memori 
 window start 
 
-[386enh] section systemini can specifi paramet 
+section systemini can specifi paramet 
 
-pageovercommit=multipli 
+
 
 follow descript window resourc kit 
 
 entri specifi multipli determin amount 
 linear address space vmm will creat system 
 comput round amount avail physical memori 
-nearest 4 mb multipli valu valu 
-specifi pageovercommit= increas valu increas 
+nearest mb multipli valu valu 
+specifi increas valu increas 
 amount avail linear address space caus size data 
 structur increas also increas page activ 
 proportion can slow system can specifi 
-valu 1 20 default 4 chang entri 
+valu default chang entri 
 must edit systemini 
 
 
 bob nichol 
 att bell laboratori 
-rnichols@ihlpmihattcom 
+

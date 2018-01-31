@@ -7,7 +7,7 @@ Hi
 I have a simple question Is it possible to create a OVERLAPPED THICKFRAME
 window without a title bar; ie
 
-	WSOVERLAPPED  WSTHICKFRAME  ~WSCAPTION 
+	WSOVERLAPPED  WSTHICKFRAME  WSCAPTION 
 
 
 I don't seem to be able to get rid off the title bar

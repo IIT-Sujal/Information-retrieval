@@ -37,7 +37,7 @@ Taken from one of my lecture notes
 
     o perform all data operations on registers;
 
-    o provide few addressing modes eg immediate or 'register + offset';
+    o provide few addressing modes eg immediate or 'register  offset';
 
     o only allow load  store operations to access memory;
 

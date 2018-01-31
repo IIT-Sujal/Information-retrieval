@@ -1,51 +1,51 @@
-rda771v@monu6ccmonasheduau ab wuysang 
+ab wuysang 
 subject re exit code dossorri wrong group 
 
-articl 1993apr1917063117598@seasgwuedu louray@seasgwuedu michael panayiotaki write 
+articl michael panayiotaki write 
 
 hei now first sorri post do question window 
 group kinda hurri scrambl find do 
-groups' name 
+name 
 
 anywai anyone know ccan find exit code do command 
 
-3 altern 
-1 can try write small c program someth like 
+altern 
+can try write small c program someth like 
 
-int myintvar; 
-myintvar = system"command"; 
+int 
+myintvar 
 
 displai myintvar valu exit code command 
 
-2 us 4doscom instead commandcom built move command 
+us instead commandcom built move command 
 can also get program exist code us exec function 
-4do 
 
-cecho @exec[command] 
+
+cecho 
 
 will displai exit code command 
 
-3 get do 6 worth bui alreadi qemmpctoolsnorton 
+get do worth bui alreadi qemmpctoolsnorton 
 need move util 
 
 manual seem particularli look 
-copi order make "move" batch file file 
+copi order make batch file file 
 coppi properli delet 
 
 
-pleas e'mail louray@seasgwuedu 
+pleas 
 thank ia 
 mickei 
 
-pe michael panayiotaki louray@seasgwuedu 
+pe michael panayiotaki 
 ac uunetseasgwuedulourai 
 make mswindow grp file reflect hd directori 
-"well ain't alwai right never wrong"gd 
+alwai right never 
 
 
-++ 
+
 agu budi wuysang 
 digitech student 
 monash univers clayton 
 melbourn australia 
-++ 
+

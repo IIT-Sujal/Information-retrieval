@@ -1,4 +1,4 @@
-jls@atglabatgcom jerom schneider 
+jerom schneider 
 subject re environ space runn bat file window 
 
 
@@ -6,31 +6,31 @@ bat file run window icon set pif
 file run bat file exclus mode us entir screen 
 first line bat file set environ variabl 
 
-problem machin runn msdo 50 window 
-31 enhanc mode set command bat file fail 
+problem machin runn msdo window 
+enhanc mode set command bat file fail 
 environ space error rais amount environ 
-space 2048 byte us shell command configsi know 
+space byte us shell command configsi know 
 nowher near runn 
 
-window resourc toolkit win4workgroup add entri 
-"systemini" file [nonwindowsapp] section 
+window resourc toolkit add entri 
+file section 
 
-commandenvsize=nnnn 
 
-"thi set commandcom env size nnnn must either 0 
-160 32768 valu 0 disabl sett 
-valu small big round 160 32768 
+
+set commandcom env size nnnn must either 
+valu disabl sett 
+valu small big round 
 valu less current size actual environ 
-sett disabl 0 specifi 
+sett disabl specifi 
 environ size pif file commandcom pif sett 
-overrid sett default 0 msdo version earlier 
-32 otherwis default valu e option 
-shell= command configsi set valu must edit 
-systemini [and reboot]" 
+overrid sett default msdo version earlier 
+otherwis default valu e option 
+command configsi set valu must edit 
+systemini 
 
 
 us entri well reli default e 
-configsi shell= line give larger environ 
+configsi line give larger environ 
 us on environ pass window 
 new do box just littl bit bigger environ 
 variabl present window start matter big 
@@ -39,7 +39,7 @@ except byte allow batch file run
 mileag mai vari 
 
 
-jerom jerri schneider domain jls@atgcom 
-aspen technolog group uucp {uunet}csnatglabjl 
-po box 673 ft collin co 80522 voic 303 4841488 
+jerom jerri schneider domain 
+aspen technolog group uucp 
+po box ft collin co voic 
 

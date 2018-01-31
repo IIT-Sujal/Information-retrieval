@@ -2,7 +2,7 @@ From wiseb@colossuscsrpiedu Bowden Wise
 Subject Re Deriving from class Object with OWL
 
 I solved my problem  I still do not understand why it happens ths
-way; perhaps some of you C++ gurus can explain this to all of us
+way; perhaps some of you C gurus can explain this to all of us
 
 For some reason when I define the following functins in the class
 definition in the h file the compiler thinks some pure virtual

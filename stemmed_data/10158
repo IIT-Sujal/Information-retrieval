@@ -1,12 +1,12 @@
-tedm@tsoftnet ted matsumura 
-subject re leak memori resourc 31 
+ted matsumura 
+subject re leak memori resourc 
 
-articl 1993apr301803175618@seasgwuedu louray@seasgwuedu michael panayiotaki write 
-articl c6aw83h7v@csnorg richardf@tealcsnorg iriemon write 
+articl michael panayiotaki write 
+articl iriemon write 
 
-dmittleman@bpavmsbpaarizonaedu daniel mittleman write 
-runn win 31 ndw 22 486sx 8 meg memori 
-6 meg perm swap file gett exceedingli frustrat 
+daniel mittleman write 
+runn win ndw meg memori 
+meg perm swap file gett exceedingli frustrat 
 applic give back system resourc close 
 
 notic also wai explain window 
@@ -28,7 +28,7 @@ mickei
 
 also shell hogg resourc exampl 
 open app data file caus result low system resourc 
-ndw 2x shell 
+ndw shell 
 
 program manag see shell 
 app 

@@ -11,7 +11,7 @@ If this is true and Microsoft deems this to be the most prudent installation
 then I will comply but I'd like to hear it from administrators first
  
 The LOCAL Windows Installation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Windows is fully installed on each workstation hard drive assuming the
 resources are available  From a network administrator's implementation
 heshe would install all windows disks on a network drive using SETUPA
@@ -51,13 +51,13 @@ administer
   applications and not user data
  
 The SHARED Windows Installation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Windows is fully installed to a network disk via the SETUPA procedure
 described above  Users or administrators then install a minimal set of
 files to individual "user" directories  These directories may be on a
 local hard disk or perhaps a network "home" directory  The bulk of the
 Windows system files are maintained on the network in a single directory
-some 400+ files and are accessed shared asneeded by users throughout
+some 400 files and are accessed shared asneeded by users throughout
 their Windows session  The user's files consist of a small set of files
 that the user has updated during hisher Windows session  These include
 group files INI files and other regularly updated files
@@ -90,7 +90,7 @@ Disadvantages
   tied to a particular username in the case of Network user files
   
 The Discussion
-~~~~~~~~~~~~~~
+
 I would like to know from other administrators with a large Windows
 userbase how they prefer setting up Windows  Personally I have
 setup numerous installations using the SHARED setup  All Windows and

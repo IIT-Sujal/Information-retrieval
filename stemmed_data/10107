@@ -1,24 +1,24 @@
-ebosco@usoraclecom eric bosco 
+eric bosco 
 subject put swap file id scsi 
 
 
-486 sx 25 recent add scsi drive system us 
-adaptec 1522 non busmast control yesterdai ran coretest 
+sx recent add scsi drive system us 
+adaptec non busmast control yesterdai ran coretest 
 find drive perform valu got 
 
-seagat 106 meg 8751kbsec 145m avg seek 37m track track 
-quantum 400 meg scsi 9912 kbsec 127 avg seek 36 track track 
+seagat meg avg seek track track 
+quantum meg scsi kbsec avg seek track track 
 
 first good result know typical valu 
 
 
 wonder now follow swap file current 
-id move scsi 13 faster 
-abl us 32bit access might actual make slower 
+id move scsi faster 
+abl us access might actual make slower 
 drive put swap file get best result swap 
 file speed test program 
 
-final also ran test aspi2do driver load 
+final also ran test driver load 
 got differ whatsoev perform reason 
 load driver 
 

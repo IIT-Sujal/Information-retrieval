@@ -1,5 +1,5 @@
 From ralph@spsscom Ralph Brendler
-Subject Re Using Microsoft Foundation Classes with Borland C++ 31
+Subject Re Using Microsoft Foundation Classes with Borland C 31
 
 In article 1qv1rc$fcp@newscstuberlinde make@cstuberlinde M Kerkhoff writes
  Hi all
@@ -22,24 +22,24 @@ In article 1qv1rc$fcp@newscstuberlinde make@cstuberlinde M Kerkhoff writes
 
 I think you may be chasing the wrong problem  I don't think it is the
 function overloading at all I do that sort of thing all of the time
-in BC++ without a hitch  The big problems I have encountered in
-porting MFC to BC++ is that fact that MFC depends on a couple of
-invalid C++ assumptions
+in BC without a hitch  The big problems I have encountered in
+porting MFC to BC is that fact that MFC depends on a couple of
+invalid C assumptions
 
-I have never gotten the entire ctrltest app to run under BC++ but
+I have never gotten the entire ctrltest app to run under BC but
 the reason is that MS makes some bad assumptions about the order in
 which staticglobal objects are initialized ie some objects are
 getting accessed before they are initialized  The problem is in the
 ownerdraw menu code somewhere if you comment out that section all
 other pieces of ctrltest work fine
 
-Two other major gotchas I have found using MFC under BC++
+Two other major gotchas I have found using MFC under BC
 
  The CFileOpenFlags enum uses hardcoded numbers for the open mode
   rather than the manifest constants defined in fcntrlh which differ
   between MSC and BC
 
- All of the MFC collection classes depend on another bad C++
+ All of the MFC collection classes depend on another bad C
   assumption that a reference to a base object can used be in place
   of a reference to a derived object true for pointers NOT for
   references

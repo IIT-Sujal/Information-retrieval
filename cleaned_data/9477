@@ -8,8 +8,8 @@ come across a few that look good
 
   Zapp 11 from Inmark
   Zinc 35 from Zinc software
-  C++Views from Liant
-  Win++ from Blaise
+  CViews from Liant
+  Win from Blaise
 
 Some considerations I'm using
 
@@ -24,7 +24,7 @@ sake of changing the API are valuable
 memory management issues and issues particular to the Windows 31 API are less
 important 
 
-  We will probably buy another C++ class library something like Toolsh++ or Booch
+  We will probably buy another C class library something like Toolsh or Booch
 components from Rational to handle data structures and other miscellaneous stuff
  allocators etc  So those features are not that important for this toolkit to have
 

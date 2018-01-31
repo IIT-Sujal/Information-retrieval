@@ -1,7 +1,7 @@
-ralph@spsscom ralph brendler 
-subject re us microsoft foundat class borland c++ 31 
+ralph brendler 
+subject re us microsoft foundat class borland c 
 
-articl 1qv1rc$fcp@newscstuberlind make@cstuberlind m kerkhoff write 
+articl m kerkhoff write 
 hi 
 
 anybodi tri compil ctrltest mfcsampl directori 
@@ -9,7 +9,7 @@ compil mfclib bwc
 
 seem bwc abl distinguish pointer overload 
 function 
-exampl imagin follow 2 overload function 
+exampl imagin follow overload function 
 void samenam void 
 void samenam int 
 
@@ -22,35 +22,35 @@ thanx
 
 think mai chase wrong problem think 
 function overload sort thing time 
-bc++ without hitch big problem encount 
-port mfc bc++ fact mfc depend coupl 
-invalid c++ assumpt 
+bc without hitch big problem encount 
+port mfc bc fact mfc depend coupl 
+invalid c assumpt 
 
-never gotten entir ctrltest app run bc++ 
+never gotten entir ctrltest app run bc 
 reason ms make bad assumpt order 
 staticglob object initializ ie object 
 gett access initializ problem 
 ownerdraw menu code somewher comment section 
 piec ctrltest work fine 
 
-two major gotcha found us mfc bc++ 
+two major gotcha found us mfc bc 
 
 cfileopenflag enum us hardcod number open mode 
 rather manifest constant defin fcntrlh differ 
 msc bc 
 
-mfc collect class depend anoth bad c++ 
+mfc collect class depend anoth bad c 
 assumpt refer base object can us place 
 refer deriv object true pointer 
 refer 
 
 sure problem along line 
-encount yet seen mfc 20 yet hope 
-will address ms' 
-hype portabl vendor' compil will just 
+encount yet seen mfc yet hope 
+will address 
+hype portabl compil will just 
 
 
-employer' opinion post 
+opinion post 
 
-"whoever said noth last forev obvious r brendler 
-cub fan" mike royko spss inc chicago il 
+said noth last forev obvious r brendler 
+cub mike royko spss inc chicago il 

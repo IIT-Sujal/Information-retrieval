@@ -1,31 +1,31 @@
-dpugsle@nswcwonswcnavymil donald pugslei 
-subject c7 linkseg problem call runtim function 
+donald pugslei 
+subject linkseg problem call runtim function 
 
-small window program can get work; 
+small window program can get 
 program look vagu like 
 
-============================================= 
-char f1[80]; 
+
+char 
 
 int winmain 
-{ 
-lstrcpy lpstrf1 "hello"; 
 
-} 
+lstrcpy 
+
+
 
 long far pascal wndproc 
-{ 
-lstrcpy lpstrf1 "hello"; 
 
-} 
+lstrcpy 
 
-============================================= 
-us larg model window 31; link without 
+
+
+
+us larg model window link without 
 error rc program said 
 
 sort preload segment resourc fastload section 
-copi segment 1 53679 byte 
-rc fatal error rw1031 segment 1 
+copi segment byte 
+rc fatal error segment 
 reloc inform larg load 
 optim make segment loadoncal 
 rerun rc us k switch segment must 
@@ -37,7 +37,7 @@ fix
 
 
 thank 
-pugslei dpugsle@nswcwonswcnavymil 
+pugslei 
 
 
 

@@ -16,7 +16,7 @@ back and expect it to work  You have to create a new WINCOM file  Try
 the command you will have to worry about what directories each file is in
 since I don't know your setup
 
-COPY B WINCNF+VGALOGOLGO+VGALOGORLE WINCOM
+COPY B WINCNFVGALOGOLGOVGALOGORLE WINCOM
 
 I grabbed this from Supercharging Windows by Judd Robbinsgreat book
 This is also how you can put your own logo into the Windows startup screen

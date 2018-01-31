@@ -418,11 +418,11 @@ Xref cradletitech composmswindowsprogrammermisc3609
     wide you still have to write out four bytes for every  image  line   The
     number of bytes per line can be calculated as
 
-		 bytesperline = widthinpix  bitdepth + 31   32  4;
+		 bytesperline = widthinpix  bitdepth  31   32  4;
 
 	or in terms of the fields of the BITMAPINFOHEADER structure
 
-		 bytesperline = biWidth  biBitCount + 31   32  4;
+		 bytesperline = biWidth  biBitCount  31   32  4;
 
 
     When writing out your image data you must write it out bottom line first

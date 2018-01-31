@@ -21,7 +21,7 @@ wincom
 	To make a new wincom you have to concatinate three files together 
 using the b option for a binary concatonation  I beleive it is
 
-copy b wincnf+vgalogolgo+vgalogorle mywincom
+copy b wincnfvgalogolgovgalogorle mywincom
 
 Make sure you backup your wincom file in anotehr directory before you do this 
  I absentmindedly typed wincom instead of mywincom and had to resinstall 
@@ -38,12 +38,12 @@ that because of the frequency of crashes grin
 
 Rob
 
-    				   ++
+    				   
    		===	        a post by    
  			        Rob Mohns    
 				         rmohns@     
 	I had no water so	     vaxclarkuedu  
-	I drowned in sand	   ++
+	I drowned in sand	   
 				            
 		  		            
 

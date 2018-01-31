@@ -3,7 +3,7 @@ Subject Re Windows 31 vs Communication Proagrams
 
 In article 10377@leeSEASUCLAEDU victorf@wrightseasuclaedu Victor Friedman writes
  Can anybody tell me what exactly Windows 31 does to the COM ports
- Why can't I run a single communication program under Windows I have ProComm+
+ Why can't I run a single communication program under Windows I have ProComm
  QuickLink {COMMO}  neither of them respond to modem commands after the
  connection has finally been established although I'm still able to manage
  								Vick
@@ -20,7 +20,7 @@ MS points out in the readmewri file and is especially critical for downloading
 it will help u w debugging this thing and it's 'healthier' 4 Check where
 are u running the mouse from  com port  5 check the com port addresses from
 your BIOS setup and from Ctrl PanelPortsSetupAdvanced
-These might help u If yu still have problems get $100 and buy Procomm+Win
+These might help u If yu still have problems get $100 and buy ProcommWin
  Hope it helps somehow
 
 

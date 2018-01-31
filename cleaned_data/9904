@@ -17,7 +17,7 @@ to "n" for norealize colour table and started windows  It
 will be fine for that session but the next session will again
 turn the option on
 
-I tried adding a +R readonly attribute to my winini file and
+I tried adding a R readonly attribute to my winini file and
 it worked but my bitmap wallpaper saver didn't work then
 Actually it's the same application  Anywya it didn't work
 since it must change the setting at the winini file

@@ -1,9 +1,9 @@
 From rwag@gwlcom Rodger Wagner
-Subject Running C++ EXE under Windows 31
+Subject Running C EXE under Windows 31
 
 Preface I am a novice user at best to the Windows environment
 
-I am trying to execute a MS C++ 70 executable program which accesses a Btrieve
+I am trying to execute a MS C 70 executable program which accesses a Btrieve
 database to build an ASCII file  
 
 When I execute it under windows the screen goes blank and my PC locks up  The only

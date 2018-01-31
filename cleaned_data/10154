@@ -1,7 +1,7 @@
 From cui@maccsmcmasterca Jun Cui
 Subject How to respond to WMLBUTTONDBLCLK
 
-I'm using BC++'s ObjectWindows 31 trying to resond to the left button
+I'm using BC's ObjectWindows 31 trying to resond to the left button
 double click message WMLBUTTONDBLCLK in a combo box My codes look like
 
 class MyComboBox  public TComboBox
@@ -9,7 +9,7 @@ class MyComboBox  public TComboBox
 public
 	MyComboBoxPTWindowsObject AParent int ResourceId WORD ATextLen 
 		TComboBoxAParent ResourceId ATextLen {};
-	virtual void WMLButtonDblClkRTMessage Msg = [WMFIRST + WMLBUTTONDBLCLK];
+	virtual void WMLButtonDblClkRTMessage Msg = [WMFIRST  WMLBUTTONDBLCLK];
 };
 
 void MyComboBoxWMLButtonDblClkRTMessage Msg

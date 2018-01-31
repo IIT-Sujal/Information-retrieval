@@ -1,17 +1,17 @@
-dbarker@spangcamosunbcca deryk barker 
+deryk barker 
 subject re wppcf linux risc 
 
-leebr@ecftorontoedu lee brian write 
-articl 1qu8ud$2hd@sunbocsmqeduau eugene@mpcemqeduau write 
-articl c5o1yqm34@csienctuedutw ghhwang@csienctuedutw ghhwang write 
+lee brian write 
+articl write 
+articl ghhwang write 
 
 dear friend 
-risc mean "reduc instruct set computer" risc usual 
+risc mean instruct set risc usual 
 small instruct set reduc circuit complex can increas 
 clock rate high perform can read book 
 comput architectur inform risc 
 
-hmm author risc ; clearli rememb 
+hmm author risc clearli rememb 
 read instruct set risc cpu rather larg 
 differ address mode risc instruct set 
 orthogon cisc 
@@ -21,30 +21,30 @@ idea everi instruct complet singl
 clock cycle b microcod c extens pipelin 
 
 comparison patterson reduc instruct set comput 
-cacm v28 1 1985 
+cacm 
 
 cpu year instruct microcod 
 
-ibm 370168 1973 208 420kb 
-dec vax 11780 1978 303 480kb 
-ibm 801 1980 120 0 
-ucb risc 1 1982 39 0 
-stanford mip 1983 55 0 
+ibm 
+dec vax 
+ibm 
+ucb risc 
+stanford mip 
 
-research vlsi vax dec discov 60 vax 
-microcod support 20 instruct set 
-account mere 02 instruct execut uvax 32 
+research vlsi vax dec discov vax 
+microcod support instruct set 
+account mere instruct execut uvax 
 subsett architectur onto singl chip us softwar 
 emul complex instruct full vlsi uvax 
-includ entir instruct set 510 time copmlex 
-ranm 20 faster 
+includ entir instruct set time copmlex 
+ranm faster 
 
 cpu chip microcod transistor 
 
-uvax 32 2 64k 101k 
-vlsi uvax 9 480k 1250k 
+uvax 
+vlsi uvax 
 
 
 real deryk barker comput scienc dept camosun colleg victoria bc 
-email dbarker@camosunbcca 
-phone +1 604 370 4452 
+email 
+phone 

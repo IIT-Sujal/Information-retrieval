@@ -1,4 +1,4 @@
-wiseb@colossuscsrpiedu bowden wise 
+bowden wise 
 subject deriv class object owl 
 
 try defin class deriv object class 
@@ -13,21 +13,21 @@ creat instanc abstract class hashentri
 anyone deriv class object left 
 virtual function defin object 
 
-virtual classtype isa const { return hashentryclass; } 
-virtual pchar nameofconst { return "hashentry"; } 
+virtual classtype isa const return 
+virtual pchar nameofconst return 
 
-virtual hashvaluetyp hashvalu const { return hashvaluehwindow; } 
+virtual hashvaluetyp hashvalu const return 
 note hwindow defin hashentri 
 
 virtual int isequ const object far obj const 
-{ return == hashentri obj; } 
+return hashentri 
 
 virtual void printon rostream os const 
-{ 
-os "[ hwindow " void far hwindow " ]n"; 
-} 
+
+os hwindow void far hwindow 
+
 
 
 bowden wise 
-comput scienc dept renssela polytechnic inst troi ny 12180 
-internet wiseb@csrpiedu 
+comput scienc dept renssela polytechnic inst troi ny 
+internet 

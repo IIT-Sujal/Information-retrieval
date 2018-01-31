@@ -1,14 +1,14 @@
-ebrewer@sciencesmithedu 
+
 subject re put swap file id scsi 
 
-articl 1993apr28160220963@oracleusoraclecom ebosco@usoraclecom write 
+articl write 
 
-486 sx 25 recent add scsi drive system us 
-adaptec 1522 non busmast control yesterdai ran coretest 
+sx recent add scsi drive system us 
+adaptec non busmast control yesterdai ran coretest 
 find drive perform valu got 
 
-seagat 106 meg 8751kbsec 145m avg seek 37m track track 
-quantum 400 meg scsi 9912 kbsec 127 avg seek 36 track track 
+seagat meg avg seek track track 
+quantum meg scsi kbsec avg seek track track 
 
 first good result know typical valu 
 
@@ -16,11 +16,11 @@ first good result know typical valu
 pretti typical believ 
 
 wonder now follow swap file current 
-id move scsi 13 faster 
-abl us 32bit access might actual make slower 
+id move scsi faster 
+abl us access might actual make slower 
 drive put swap file get best result swap 
 file speed test program 
 
-keep swap file id 32bit access worth fair amount 
-13 
+keep swap file id access worth fair amount 
+
 

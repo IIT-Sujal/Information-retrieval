@@ -1,7 +1,7 @@
 From cui@maccsmcmasterca Jun Cui
 Subject How to hold the control to a window object
 
-I'm using BC++'s ObjectWindows version 31 and trying to get some data 
+I'm using BC's ObjectWindows version 31 and trying to get some data 
 processed in a window object However when the calling program invokes 
 the window object it gives up the control to the window object and keeps 
 executing the next statement I would like the calling program after 

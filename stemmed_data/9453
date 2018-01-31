@@ -1,10 +1,10 @@
-spitz@anamedunimuenchend richard spitz 
+richard spitz 
 subject re help winqvt 
 
-swartzjh@nextworkrosehulmanedu jeff h swartz write 
+jeff h swartz write 
 
 us name rosevcrosehulmanedu 
-initiat nameserv queri 'rosevc' 
+initiat nameserv queri 
 nameserv queri time 
 us ip number 
 local host gatewai respond 
@@ -24,28 +24,28 @@ abl coexist just fine pktmux requir us
 differ tcpippackag concurr 
 
 qvthostrc file 
-13711252 
-13711219950 
+
+
 
 first problem specifi hostnam just ipaddress 
 file look like 
 
-13711252 name nameserv 
-13711219950 name router 
+name nameserv 
+name router 
 
 beginn winqvtini file 
-[net] 
-name=swartzjhtestrosehulmanedu 
+
+
 
 specifi hostnam without domain part 
 
-router=13711219950 
 
-instead us router=nam router specifi qvthostrc 
-know releas note 331 sai ip address work also 
+
+instead us router specifi qvthostrc 
+know releas note sai ip address work also 
 appar 
 
-nameserver=13711252 
+
 
 us hostnam nameserv instead 
 ip address 
@@ -58,9 +58,9 @@ hope help
 richard 
 
 
-+++ 
-dr richard spitz internet spitz@anamedunimuenchend 
-edvgrupp anaesthesi tel +498970953421 
-klinikum grosshadern fax +498970958886 
+
+dr richard spitz internet 
+edvgrupp anaesthesi tel 
+klinikum grosshadern fax 
 munich germani 
-+++ 
+

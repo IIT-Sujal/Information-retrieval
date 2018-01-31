@@ -27,7 +27,7 @@ In article sehari734022369@vincent2iastateedu sehari@iastateedu Babak Sehari wri
  
  8 C compiler Don't think so    yap          yap     yap
  
- 9 C++           no             Yap          Yap     Yap
+ 9 C           no             Yap          Yap     Yap
  
  10 Fortran      no             yap          yap     yap
  
@@ -43,12 +43,12 @@ In article sehari734022369@vincent2iastateedu sehari@iastateedu Babak Sehari wri
  
 
 This list appears to imply that MSwindows that has a cost listed
-above at $70 comes with a C compiler C++ and Fortran It does not of
+above at $70 comes with a C compiler C and Fortran It does not of
 course These are expensive addons that drive the price WAY beyond $70
  I don't know if the same applies to OS2 
 
 As far as unix is concerned;
-There is a free unix linux that has cc ~c++ fortran  f2c 
+There is a free unix linux that has cc c fortran  f2c 
 Xwindows and many other features besides with a large number of utilities
 that can be optionally added And there is also a free 386BSD I believe
 Both these unix's are quite robust You can check out composlinux

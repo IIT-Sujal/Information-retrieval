@@ -19,7 +19,7 @@ One of the unadvertised limitations of most current Windows PCs is that
 their RS232C serial COM performance is seriously deficient  Almost
 everyone who purchases a highspeed modem V32bis V32 PEP or HST
 discovers the problem the first time they try to download a file or accept
-an incoming FAX at 9600+ after upgrading the modem  Overrun and retry
+an incoming FAX at 9600 after upgrading the modem  Overrun and retry
 errors abound even when the only active application is the datacomm or
 FAX program  If the transfer completes at all it may take even longer
 than with the old 2400bps modem
@@ -49,7 +49,7 @@ There are three reasons for the problem
    errors and overruns because the standard MicroSoft Windows COM drivers
    don't take full advantage of the 16550  Windows 31 is improved in this
    regard over 30 but I still recommend a driver upgrade  Applications
-   like ProComm+Win which is what I use cannot get around this problem
+   like ProCommWin which is what I use cannot get around this problem
    by themselves
 
 If you have a modem CARD you may not have a problem as the modem part of
@@ -114,7 +114,7 @@ COM34 although watch out for IRQ conflicts without TurboCom
 
 Although cheaper cards are available in the interest of getting the
 problem solved quickly I elected buy the Modular Circuit Technology
-MCTAIO+ card from
+MCTAIO card from
 
 JDR Microdevices
 2233 Samaritan Drive
@@ -123,7 +123,7 @@ San Jose  CA  95124
 408 5591200 voice other
 800 5385005 FAX US
 
-The MCTAIO+ and the "+" is important sells for $8995  It is an 8bit
+The MCTAIO and the "" is important sells for $8995  It is an 8bit
 ISA card providing
 
 Port Type  Connector  Address and IRQ        Comments
