@@ -1,12 +1,3 @@
-"""
-Reimplementation of the
-`Porter stemming algorithm <http://tartarus.org/~martin/PorterStemmer/>`_
-in Python.
-
-In my quick tests, this implementation about 3.5 times faster than the
-seriously weird Python linked from the official page.
-"""
-
 import re
 
 # Suffix replacement lists
