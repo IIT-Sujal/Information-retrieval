@@ -1,11 +1,11 @@
 import os,re
 import porter
 z=0
+#initializing punctuation marks list and stop words list
 punctuation_marks=[',','.','<','>','|',':','(',')','/','_','\\','?','-','!','#','%','^','&','*','_','+','~']
 stop_word=open('stop_words.txt',"r").read().split('\n')
 
 # cleaning data by removing punctuation marks
-
 for root, dirs, files in os.walk("/home/sujal/Desktop/IR-assignment/comp.os.ms-windows.misc"):
 	for input_file in files:
 		output_file='cleaned_data/'+input_file
@@ -20,7 +20,6 @@ for root, dirs, files in os.walk("/home/sujal/Desktop/IR-assignment/comp.os.ms-w
 
 # stemming and removal of stop words
 documents=[]
-
 unique_words=set()
 for root, dirs, files in os.walk("/home/sujal/Desktop/IR-assignment/cleaned_data"):
 	for input_file in files:
@@ -45,14 +44,15 @@ for root, dirs, files in os.walk("/home/sujal/Desktop/IR-assignment/cleaned_data
 #creating index list with document frequency and term frequency
 document_frequency=dict()
 term_frequency=dict()
-	
+
+#initializing term_frequency matrix
 for term in unique_words:
 	term_frequency[term]=dict()
-	document_frequency[word]=0
 	for root, dirs, files in os.walk("/home/sujal/Desktop/IR-assignment/stemmed_data"):
 		for input_file in files:
 			term_frequency[term][input_file]=0
 
+#building term_frequency matrix
 for root, dirs, files in os.walk("/home/sujal/Desktop/IR-assignment/stemmed_data"):
 	for input_file in files:
 		f_new=open("stemmed_data/"+input_file,"r")
@@ -67,8 +67,21 @@ for root, dirs, files in os.walk("/home/sujal/Desktop/IR-assignment/stemmed_data
 					if word in unique_words:
 						term_frequency[word][input_file]+=1
 		f_new.close()
+
+posting_list=dict()
+# building document_frequency
 for word in unique_words:
+	document_frequency[word]=0
+	posting_list[word]=[]
 	for input_file in term_frequency[word].keys():
 		if term_frequency[word][input_file]>0:
+			posting_list[word].append(input_file)
 			document_frequency[word]+=1
-print (document_frequency)
+
+# example 
+print('Document frequency of term "Made":')
+print(document_frequency['made'])
+print('Term frequency of term "Made":')
+print (term_frequency['made'])
+print('Posting List of term "Made":')
+print(posting_list['made'])
