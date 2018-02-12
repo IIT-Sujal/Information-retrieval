@@ -85,3 +85,8 @@ print('Term frequency of term "Made":')
 print (term_frequency['made'])
 print('Posting List of term "Made":')
 print(posting_list['made'])
+
+import pickle
+
+pickle.dump(posting_list,open("posting_list.dict", "wb"))
+pickle.dump(documents,open("documents.dict", "wb"))
