@@ -1,30 +1,16 @@
-#from indexing import *
 import porter
 import pickle
 posting_list = pickle.load(open("posting_list.dict", "rb"))
 documents = sorted(pickle.load(open("documents.dict", "rb")))
-#print (documents)
-#print('Posting List of term "Made":')
-#print(posting_list['made'])
 
-#for term,docs in posting_list.items():
-#	docs.sort()
-
-#print('Posting List of term "Made":')
-#print(posting_list['made'])
-
-#query=input("Enter your query: ")
-#print(sorted(posting_list.keys()))
 print('Posting List of term "Art":')
 print(posting_list['art'])
 print('Posting List of term "Watch":')
 print(posting_list['watch'])
 print('Posting List of term "Normal":')
 print(posting_list['normal'])
-#print(type(posting_list['watch'][0]))
 query=input("Enter query: ")
 query=query.lower()
-#query="watch and normal"
 
 stack_list = []
 stack_op = []
@@ -92,40 +78,35 @@ def not_operation(list1):
 def operate():
 	global stack_list
 	global stack_op
-	#result_list=[]
 	operator=stack_op.pop()
 	list1=stack_list.pop()
 	if operator=='not':
 		result_list=not_operation(list1)
-		#stack_list.append(result_list)
 	elif operator=='and':
 		list2=stack_list.pop()
 		result_list=and_operation(list1,list2)
-		#stack_list.append(result_list)
 	elif operator=='or':
 		list2=stack_list.pop()
 		result_list=or_operation(list1,list2)
-		#stack_list.append(result_list)
 	return result_list
 
-
 for word in query.split():
-	if word=='and' or word=='or' or word=='not':
+	if word=='(':
+		stack_op.append('(')
+	elif word=='not':
 		stack_op.append(word)
-	elif word=='(':
-		stack_list.append('(')
-	elif word==')':
-		while stack_list[len(stack_list)-1]!='(':
+	elif word=='and' or word=='or':
+		while len(stack_op)!=0 and stack_op[len(stack_op)-1]=='not':
 			result_list=operate()
-			if stack_list[len(stack_list)-1]!='(':
-				stack_list.append(result_list)
-		stack_list.pop()
-		stack_list.append(result_list)
+			stack_list.append(result_list)
+		stack_op.append(word)
+	elif word==')':
+		while stack_op[len(stack_op)-1]!='(':
+			result_list=operate()
+			stack_list.append(result_list)
+		stack_op.pop()
 	else:
 		stack_list.append(sorted(posting_list[porter.stem(word)]))
-
-#print(stack_list)
-#print(stack_op)
 
 while len(stack_op):
 	result_list=operate()
