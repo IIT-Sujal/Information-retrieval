@@ -4,9 +4,9 @@ z=0
 #initializing punctuation marks list and stop words list
 punctuation_marks=[',','.','<','>','|',':','(',')','/','_','\\','?','-','!','#','%','^','&','*','_','+','~']
 stop_word=open('stop_words.txt',"r").read().split('\n')
-
+stri=os.getcwd()+"/comp.os.ms-windows.misc"
 # cleaning data by removing punctuation marks
-for root, dirs, files in os.walk("/home/sujal/Desktop/IR-assignment/comp.os.ms-windows.misc"):
+for root, dirs, files in os.walk(os.getcwd()+"/comp.os.ms-windows.misc"):
 	for input_file in files:
 		output_file='cleaned_data/'+input_file
 		input_file='comp.os.ms-windows.misc/'+input_file
@@ -21,7 +21,7 @@ for root, dirs, files in os.walk("/home/sujal/Desktop/IR-assignment/comp.os.ms-w
 # stemming and removal of stop words
 documents=[]
 unique_words=set()
-for root, dirs, files in os.walk("/home/sujal/Desktop/IR-assignment/cleaned_data"):
+for root, dirs, files in os.walk(os.getcwd()+"/cleaned_data"):
 	for input_file in files:
 		output_file=input_file
 		input_file='cleaned_data/'+input_file
@@ -48,12 +48,12 @@ term_frequency=dict()
 #initializing term_frequency matrix
 for term in unique_words:
 	term_frequency[term]=dict()
-	for root, dirs, files in os.walk("/home/sujal/Desktop/IR-assignment/stemmed_data"):
+	for root, dirs, files in os.walk(os.getcwd()+"/stemmed_data"):
 		for input_file in files:
 			term_frequency[term][input_file]=0
 
 #building term_frequency matrix
-for root, dirs, files in os.walk("/home/sujal/Desktop/IR-assignment/stemmed_data"):
+for root, dirs, files in os.walk(os.getcwd()+"/stemmed_data"):
 	for input_file in files:
 		f_new=open("stemmed_data/"+input_file,"r")
 		for line in f_new.readlines():
