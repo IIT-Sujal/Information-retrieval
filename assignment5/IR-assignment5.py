@@ -51,8 +51,8 @@ for i in range(0,3):
 	ap=ap/total_rel_docs
 	average_precision.append(ap)
 mean_average_precision=0.0
-for i in range(3):
-	print "average_precision for ",i+301," is :",average_precision[i]
-	mean_average_precision+=average_precision[i]
+for i in range(301,304):
+	print "average_precision for ",i," is :",average_precision[i%3]
+	mean_average_precision+=average_precision[i%3]
 mean_average_precision/=3
 print "mean_average_precision is : ",mean_average_precision
